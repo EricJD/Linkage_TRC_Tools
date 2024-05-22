@@ -1,0 +1,2 @@
+Das Javascript lässt sich über den Browser öffnen und bildeten den Graph, der über "bolt://localhost" erreichbar sein muss, ab. Keine weiteren Modifikationen sind nötig.
+Wenn mehr als 5000 Knoten angeziegt werden sollen, muss die cypher-Query angepasst werden (Zeile 19, der Wert "limit")

@@ -1,0 +1,46 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/3d-force-graph@1.71.5/dist/3d-force-graph.min.js"></script>
+  <script src="https://unpkg.com/neo4j-driver"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+
+  <script>
+    const elem = document.getElementById('3d-graph');
+    const driver = neo4j.driver("bolt://localhost");
+  const white = "#FFFFFF";
+  const black = "#f44336";
+	const session = driver.session({database:"neo4j"});
+	const start = new Date()
+    session
+      .run('MATCH (n)-->(m) RETURN { id: id(n), label:head(labels(n)), caption:n.name } as source, { id: id(m), label:head(labels(m)), caption:m.name } as target LIMIT $limit', {limit: neo4j.int(5000)})
+      .then(function (result) {
+        const nodes = {}
+        const links = result.records.map(r => { 
+	       var source = r.get('source');source.id = source.id.toNumber();
+           nodes[source.id] = source;
+	       var target = r.get('target');target.id = target.id.toNumber();
+           nodes[target.id] = target;
+	       return {source:source.id,target:target.id}
+	    });
+        session.close();
+        console.log(links.length+" links loaded in "+(new Date()-start)+" ms.")
+        const gData = { nodes: Object.values(nodes), links: links}
+        const Graph = ForceGraph3D()(elem)
+                      .backgroundColor(white)
+                      .graphData(gData)
+                      //.nodeAutoColorBy('label')
+                      .nodeColor(() => 'rgb(0,0,0)')
+                      .linkColor(() => 'rgb(0,0,0)')
+                      .nodeLabel(node => `${node.label}: ${node.caption}`)
+                      .onNodeHover(node => elem.style.cursor = node ? 'pointer' : null);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  </script>
+</body>
