@@ -1,0 +1,26 @@
+Folgende Befehle könne in neo4j direkt als cypher-Abfrage genutzt werden, um mit GDS die gröte SCC herauszufiltern:
+
+CALL gds.graph.create('graph', 'SINGLE_NODE', 'IS_CONNECTED')
+
+// “create” ist der Befehl für GDS in neo4j 4.2.3
+// neuere Versionen nutzen „project“
+
+CALL gds.alpha.scc.stream('graph', {})
+YIELD nodeId, componentId
+RETURN gds.util.asNode(nodeId).name AS Name, componentId AS Component
+ORDER BY Component DESC
+
+CALL gds.alpha.scc.write('graph', {
+  writeProperty: 'componentId'
+})
+
+MATCH (u:SINGLE_NODE)
+RETURN u.componentId AS Component, count(*) AS ComponentSize
+ORDER BY ComponentSize DESC
+LIMIT 5
+
+//Dies gibt die ID der 5 größten Komponenten aus
+
+MATCH (u:SINGLE_NODE)
+WHERE u.componentId <> [ID der größten Komponente aus dem letzten Befehl]
+DETACH DELETE u
