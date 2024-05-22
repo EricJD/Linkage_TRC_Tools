@@ -1,0 +1,7 @@
+plastic
+seabird
+ocean
+effect
+pollution
+Number of all terms (types): 5
+Number of all edges: 0

@@ -1,0 +1,4 @@
+plastic
+pollution
+Number of all terms (types): 2
+Number of all edges: 0

@@ -1,0 +1,1 @@
+{pages: {30377599: {pageid: 30377599, ns: 0, title: Uniform National Discharge Standards, revisions: [{contentformat: text/x-wiki, contentmodel: wikitext, *: #REDIRECT [[Regulation of ship pollution in the United States#Uniform National Discharge Standards for armed forces vessels]]}]}}

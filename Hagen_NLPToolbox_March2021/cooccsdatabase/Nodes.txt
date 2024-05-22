@@ -1,0 +1,2111 @@
+|Albert II, Prince of Monaco|455|
+|European Union|3908|
+|France|4366|
+|Finland|2733|
+|Spain|2729|
+|Belgium|2204|
+|Netherlands|3389|
+|Iceland|2595|
+|101st United States Congress|1784|
+|United States Senate Committee on Energy and Natural Resources|316|
+|United States House Committee on Foreign Affairs|543|
+|United States House of Representatives|711|
+|Oil Pollution Act of 1990|139|
+|George H. W. Bush|1059|
+|Democratic Party (United States)|2878|
+|Exxon Valdez oil spill|600|
+|United States Senate|648|
+|Washington, D.C.|3208|
+|Bill Nelson|720|
+|Panama|1032|
+|109th United States Congress|1657|
+|United States Senate Committee on Commerce, Science, and Transportation|689|
+|United States House Committee on Transportation and Infrastructure|663|
+|George W. Bush|1910|
+|United States|7186|
+|Brian Bilbray|166|
+|36th parallel north|163|
+|Strait of Gibraltar|467|
+|Kern County, California|1212|
+|Mediterranean Sea|2374|
+|Pacific Ocean|1155|
+|North America|2222|
+|Atlantic Ocean|1495|
+|North Carolina|1681|
+|Southern California|1502|
+|Earth|3537|
+|Iraq|3795|
+|California|5622|
+|Texas|5274|
+|Missouri|1294|
+|42nd meridian west|52|
+|Arctic Ocean|1203|
+|South America|3828|
+|longitude|348|
+|Greenland|1812|
+|48th parallel north|149|
+|Europe|6442|
+|Canada|3650|
+|Quebec|2767|
+|Minnesota|1604|
+|Brittany|1820|
+|5 Gyres|47|
+|United Nations Economic and Social Council|208|
+|Aquarium of the Pacific|205|
+|Charles J. Moore|45|
+|Two Oceans Aquarium|45|
+|Procter & Gamble|566|
+|Johnson & Johnson|801|
+|Ocean gyre|154|
+|Los Angeles|2355|
+|Marina DeBris|113|
+|501(c)(3)|21|
+|trashion|45|
+|L'Or�al|1550|
+|501(c)(3) organization|207|
+|Internal Revenue Service|962|
+|United States Congress|1283|
+|nonprofit organization|195|
+|Richard Nixon|1205|
+|Form 990|114|
+|501c3|2|
+|51st meridian east|62|
+|Barents Sea|402|
+|Caspian Sea|1234|
+|Persian Gulf|697|
+|64th parallel north|91|
+|Baltic Sea|1946|
+|Alaska|2081|
+|Aalborg|807|
+|World War II|2537|
+|European Commission|839|
+|polar bear|1093|
+|Denmark|3079|
+|Copenhagen|1667|
+|cement|750|
+|Germany|2709|
+|Kattegat|223|
+|Oslo|1312|
+|penguin|1107|
+|Aberdeen Proving Ground|209|
+|United States Army|2141|
+|VX (nerve agent)|373|
+|New Jersey|3746|
+|chemical weapon|442|
+|Chesapeake Bay|1031|
+|Maryland|2092|
+|sarin|491|
+|Absorption (chemistry)|112|
+|solubility|1116|
+|ABT Summer|14|
+|List of oil spills|1431|
+|oil tanker|608|
+|South Korea|3033|
+|oil slick|18|
+|Liberia|1467|
+|Rotterdam|1849|
+|Angola|1305|
+|Acetyl-CoA|318|
+|Beta oxidation|463|
+|Adenosine triphosphate|702|
+|carbon dioxide|2378|
+|metabolism|2189|
+|thioester|168|
+|liver|997|
+|photosynthesis|1868|
+|acid rain|1093|
+|United States Environmental Protection Agency|991|
+|Provinces and territories of Canada|662|
+|The New York Times|3342|
+|National Academy of Sciences|111|
+|United Nations Environment Programme|455|
+|List of environmental issues|421|
+|Experimental Lakes Area|192|
+|sulfur dioxide|831|
+|nitrogen oxide|174|
+|chemical reaction|1637|
+|food web|824|
+|fossil fuel|868|
+|soil acidification|443|
+|ocean acidification|1855|
+|calcium carbonate|1361|
+|calcium sulfate|278|
+|rain|2045|
+|pH|6487|
+|ecosystem|2132|
+|weathering|542|
+|wetland|1603|
+|nitrogen|2251|
+|glacier|650|
+|pollution|1669|
+|ozone|1352|
+|oxygen|2624|
+|toxin|426|
+|asthma|824|
+|copper|1343|
+|landfill|585|
+|acidosis|153|
+|kidney|832|
+|urea|815|
+|catabolism|112|
+|poison|636|
+|pneumonia|940|
+|placenta|452|
+|Act of Congress|54|
+|United States Statutes at Large|63|
+|Bill (law)|222|
+|Federal Register|132|
+|Act to Prevent Pollution from Ships|75|
+|Regulation of ship pollution in the United States|229|
+|Title 33 of the United States Code|54|
+|United States House Committee on Natural Resources|607|
+|Oil Pollution Act of 1961|119|
+|Oil Pollution Act of 1973|126|
+|Merchant Marine Act of 1920|208|
+|Merchant Shipping (Pollution) Act 2006|32|
+|United States Coast Guard|1543|
+|John M. Murphy|58|
+|New York (state)|2679|
+|Jimmy E. Carter|2|
+|U.S. Coast Guard|33|
+|flag of convenience|377|
+|Clean Water Act|669|
+|Congressional Research Service|134|
+|U.S. Senate|16|
+|air pollution|1928|
+|Jimmy Carter|1019|
+|ships|39|
+|navigability|144|
+|legislation|101|
+|activated sludge|332|
+|sewage sludge treatment|251|
+|wastewater treatment|272|
+|membrane bioreactor|185|
+|sewage sludge|474|
+|sanitary sewer|145|
+|sewage|926|
+|microorganism|1339|
+|wastewater|352|
+|sludge|140|
+|phosphate|869|
+|Massachusetts|2919|
+|active transport|509|
+|ATP-binding cassette transporter|1247|
+|plant|2221|
+|chloride|375|
+|nitrate|511|
+|Adelaide|1377|
+|Local government in Australia|538|
+|Gulf St Vincent|117|
+|New South Wales|1326|
+|South Australia|1204|
+|Great Depression|1149|
+|Mediterranean climate|617|
+|Sydney|2370|
+|precipitation|984|
+|organic compound|413|
+|sulfur|1965|
+|admiralty law|484|
+|United Nations Convention on the Law of the Sea|292|
+|England and Wales|278|
+|International Maritime Organization|324|
+|World Maritime University|55|
+|United Nations|2651|
+|South Africa|2710|
+|United Kingdom|4346|
+|sailor|261|
+|Seattle|1832|
+|Luxembourg|1522|
+|Hamburg|1310|
+|Singapore|2594|
+|India|4912|
+|Malaysia|3272|
+|Norway|2690|
+|Sweden|2407|
+|Thailand|2047|
+|jurisdiction|530|
+|Adriatic Sea|2640|
+|Ballast water discharge and the environment|119|
+|North Atlantic right whale|868|
+|Food and Agriculture Organization|808|
+|United States Geological Survey|397|
+|marine protected area|1000|
+|National Geographic Society|537|
+|liquified natural gas|6|
+|Serbia and Montenegro|1127|
+|drainage basin|437|
+|Black Sea|1752|
+|hydrogen sulfide|1143|
+|Vis (island)|148|
+|fin whale|946|
+|sperm whale|1161|
+|manta ray|416|
+|The Guardian|2632|
+|Italy|5307|
+|Switzerland|2615|
+|Venice|1635|
+|habitat|767|
+|biodiversity|2509|
+|Yugoslavia|1068|
+|tourism|1175|
+|tonne|412|
+|latitude|662|
+|gyre|41|
+|Sahara|1099|
+|sediment|1034|
+|aquaculture|1479|
+|anchovy|258|
+|shellfish|452|
+|mussel|407|
+|UNESCO|2040|
+|Adriatic|5|
+|Adsorption|628|
+|carbon capture and storage|355|
+|Dissolution (chemistry)|9|
+|advection|141|
+|transport|923|
+|pollutant|273|
+|silt|352|
+|river|1845|
+|water|6981|
+|diffusion|979|
+|aerial survey|106|
+|Global Positioning System|1182|
+|vegetation|302|
+|Aerobic organism|122|
+|Anaerobic organism|235|
+|Seabed|377|
+|agribusiness|245|
+|greenhouse gas emissions|1024|
+|agriculture|1965|
+|farm|522|
+|Fishery|320|
+|pesticide|1296|
+|fertilizer|1589|
+|agricultural pollution|433|
+|Animal and Plant Health Inspection Service|154|
+|Environmental impact of pesticides|666|
+|point source pollution|93|
+|Dead zone (ecology)|590|
+|World Trade Organization|707|
+|biogeochemical cycle|549|
+|Surface runoff|584|
+|greenhouse gas|1317|
+|soil conservation|304|
+|heavy metals|2404|
+|Mercury (element)|1077|
+|soil erosion|1335|
+|groundwater|1067|
+|sorption|71|
+|eutrophication|1088|
+|cadmium|645|
+|phosphorus|1427|
+|fluoride|565|
+|biosolids|156|
+|zinc|2121|
+|lead|2123|
+|arsenic|1739|
+|herbicide|1012|
+|Proceedings of the National Academy of Sciences of the United States of America|120|
+|Proceedings of the National Academy of Sciences|30|
+|Small Island Developing States|106|
+|Friends of the Earth|117|
+|climate change|2566|
+|Pacific Northwest|1849|
+|water pollution|1130|
+|Intensive farming|668|
+|Science News|67|
+|Science (journal)|226|
+|aquatic ecosystem|209|
+|The Independent|475|
+|livestock|610|
+|aquifer|561|
+|methane|1656|
+|ammonia|2537|
+|bioremediation|219|
+|AGRU Kunststofftechnik|84|
+|China|5323|
+|polypropylene|571|
+|polyethylene|918|
+|Boston|2216|
+|AIDAnova|64|
+|Carnival Corporation & plc|409|
+|Santa Cruz de Tenerife|732|
+|diesel engine|1132|
+|fuel oil|547|
+|Phase-out of fossil fuel vehicles|829|
+|chronic obstructive pulmonary disease|1014|
+|Council on Foreign Relations|323|
+|Environmental Science & Technology|116|
+|U.S. Environmental Protection Agency|65|
+|climate change mitigation|1622|
+|The Washington Post|1156|
+|Los Angeles Times|1187|
+|carbon monoxide|1311|
+|lung cancer|1216|
+|BBC News|1922|
+|Nature Communications|99|
+|National Geographic|1137|
+|radioactive decay|1003|
+|soil contamination|389|
+|environmental health|440|
+|Diesel exhaust|502|
+|renewable energy|2015|
+|Le Monde|242|
+|Kyoto Protocol|1736|
+|genetics|1361|
+|furan|205|
+|haze|134|
+|carcinogen|702|
+|Reuters|1462|
+|BBC|6048|
+|Greenpeace|2267|
+|nanoparticle|1364|
+|NASA|2634|
+|gasoline|1629|
+|Airbnb|698|
+|Chief executive officer|191|
+|World Animal Protection|171|
+|The Daily Telegraph|630|
+|Joe Gebbia|323|
+|Bloomberg L.P.|444|
+|San Francisco|4307|
+|Business Insider|423|
+|Bloomberg News|414|
+|COVID-19 pandemic|3073|
+|Financial Times|586|
+|The Times|609|
+|Associated Press|760|
+|Vice News|183|
+|Forbes|900|
+|London|3676|
+|Paris|4307|
+|Barcelona|1333|
+|Moscow|2182|
+|Indonesia|2243|
+|Beijing|1025|
+|HuffPost|596|
+|Airliner|872|
+|United States Navy|1631|
+|New Zealand|2494|
+|Australia|3921|
+|AK-74|686|
+|Soviet Union|3016|
+|cavitation|485|
+|Akureyri|294|
+|Murmansk|378|
+|U.S. Army Corps of Engineers|18|
+|United States Department of Defense|435|
+|National Oceanic and Atmospheric Administration|518|
+|Prince William Sound|142|
+|English language|1929|
+|U.S. state|911|
+|sea otter|1438|
+|Exxon Valdez|211|
+|plate tectonics|854|
+|Oregon|1686|
+|Hawaii|2586|
+|Japan|2850|
+|Florida|2614|
+|environmentalism|831|
+|Iran|3430|
+|Homelessness|983|
+|Philippines|4111|
+|Mexico|2798|
+|Korea|3287|
+|albacore|392|
+|International Union for Conservation of Nature|336|
+|National Marine Fisheries Service|220|
+|Bay of Biscay|241|
+|Baja California|827|
+|Newport, Oregon|208|
+|fish|5447|
+|mackerel|601|
+|NOAA|614|
+|bioaccumulation|242|
+|Scripps Institution of Oceanography|316|
+|ocean conservation|5|
+|Biodiversity loss|1481|
+|Arctic|2182|
+|Alderney Race|31|
+|algae|1414|
+|biological life cycle|336|
+|green algae|414|
+|coral reef|2337|
+|North Sea|1774|
+|food chain|283|
+|Benthic zone|256|
+|Cyanobacteria|1505|
+|microalgae|153|
+|plankton|1632|
+|heterotroph|335|
+|coral|2526|
+|Pacific|215|
+|copepod|418|
+|Biodegradation|437|
+|Algal bloom|186|
+|harmful algal bloom|1413|
+|kelp forest|600|
+|Nutrient pollution|350|
+|Ocean|2360|
+|Algemeen Dagblad|34|
+|Dutch language|1983|
+|All the Light Above It Too|190|
+|You Can't Control It|31|
+|Jack Johnson (musician)|287|
+|North Pacific Gyre|83|
+|Bahamas Plastic Movement|31|
+|Hawaiian Islands|412|
+|plastic pollution|1258|
+|surfing|723|
+|Peru|1992|
+|Allen Holder|21|
+|San Diego|2837|
+|Imperial Beach|81|
+|Tijuana|1506|
+|Amelia Earhart|1228|
+|Long Beach, California|1500|
+|Santa Monica, California|706|
+|search and rescue|848|
+|Chester W. Nimitz|452|
+|commercial aviation|135|
+|Columbia University|1578|
+|Smithsonian Institution|665|
+|Calvin Coolidge|673|
+|New Orleans|2300|
+|Liberty ship|417|
+|CBS|1339|
+|Southampton|1305|
+|Louisiana|2265|
+|Bangkok|1383|
+|YouTube|4968|
+|NBC|1153|
+|Google|2446|
+|Lego|527|
+|amendment|63|
+|Ireland|2561|
+|American Bird Conservancy|126|
+|invasive species|1991|
+|BirdLife International|108|
+|U.S. Navy|82|
+|Caribbean|2151|
+|bird|3349|
+|American Broadcasting Company|563|
+|New York City|4983|
+|American Bureau of Shipping|106|
+|United States Army Corps of Engineers|956|
+|International Association of Classification Societies|72|
+|Prestige oil spill|204|
+|Oil platform|480|
+|Hong Kong|1566|
+|Galicia (Spain)|1811|
+|Ship|1281|
+|Houston|2112|
+|American Chemical Society|482|
+|Chemistry education|215|
+|Colloid|740|
+|Nigeria|3496|
+|American Chemistry Council|94|
+|chemical industry|772|
+|bisphenol A|529|
+|Marine debris|672|
+|plastic bag|145|
+|Local ordinance|75|
+|plastic|3485|
+|American Statistical Association|70|
+|Amina J. Mohammed|156|
+|World Economic Forum|1095|
+|Sustainable Development Goals|640|
+|Ant�nio Guterres|797|
+|Foreign Policy|130|
+|Amina Mohamed|241|
+|international law|959|
+|French language|6508|
+|Kenya|1650|
+|Somalia|3149|
+|amine|542|
+|Parts per million|35|
+|fuel cell|1480|
+|catalytic converter|518|
+|Parts-per notation|256|
+|Escherichia coli|1255|
+|diesel fuel|666|
+|calcium hydroxide|305|
+|nitrogen fixation|638|
+|density|870|
+|viscosity|726|
+|cyanide|417|
+|glass|1619|
+|soot|176|
+|Particulates|1820|
+|propane|425|
+|edema|277|
+|Toxicity|387|
+|animal|1857|
+|ammunition|211|
+|Cartridge (firearms)|1364|
+|Fuse (explosives)|147|
+|bomb|684|
+|warhead|71|
+|Amoco Cadiz|100|
+|light crude oil|75|
+|tugboat|358|
+|Amsterdam|2683|
+|World Heritage Site|478|
+|Iberian Peninsula|1530|
+|Sri Lanka|2667|
+|protected area|460|
+|Central Europe|1631|
+|tributary|148|
+|Rhine|1509|
+|Antwerp|918|
+|Trouw|67|
+|Anacostia River|248|
+|Montgomery County, Maryland|896|
+|water quality|1062|
+|hypoxia (environmental)|218|
+|urban runoff|348|
+|pathogen|702|
+|stormwater|717|
+|anaerobic respiration|250|
+|Anoxic waters|132|
+|bacteria|3796|
+|Sulfur-reducing bacteria|676|
+|denitrification|188|
+|Pseudomonas|1053|
+|Shewanella|122|
+|Portugal|5452|
+|FAO|400|
+|overfishing|1028|
+|anemia|893|
+|malaria|1915|
+|Angela Haseltine Pozzi|19|
+|Washed Ashore|28|
+|Bandon, Oregon|220|
+|Angela Merkel|1116|
+|The New Yorker|742|
+|Deutsche Welle|623|
+|Paris Agreement|844|
+|Vladimir Putin|2647|
+|Politico|668|
+|United Nations Development Programme|346|
+|International Monetary Fund|1232|
+|Library of Congress|620|
+|Southern Africa|665|
+|Pound sterling|1283|
+|Chevron Corporation|716|
+|ecological footprint|318|
+|Zaire|307|
+|drought|700|
+|cholera|1495|
+|U.S. Customs and Border Protection|555|
+|Animal Planet|129|
+|Discovery Channel|407|
+|Marine life|6265|
+|species|3532|
+|jellyfish|977|
+|larva|361|
+|Oyster|617|
+|Anoxic event|427|
+|oxygen minimum zone|155|
+|Carbon sequestration|1332|
+|Ocean deoxygenation|326|
+|upwelling|459|
+|petroleum|2031|
+|US Geological Survey|12|
+|Gulf of Mexico|1128|
+|fresh water|438|
+|Ansel Adams|395|
+|United States Department of the Interior|143|
+|University of Arizona|1027|
+|Monterey, California|737|
+|Antarctic fur seal|300|
+|South Georgia and the South Sandwich Islands|653|
+|Effects of climate change on oceans|655|
+|anthropogenic hazard|323|
+|human impact on the environment|1300|
+|United States Department of State|552|
+|List of waste types|71|
+|Costa Concordia disaster|945|
+|Chernobyl disaster|1538|
+|DDT|1057|
+|antidote|177|
+|nerve agent|622|
+|thiosulfate|192|
+|antifreeze|382|
+|Food and Drug Administration|652|
+|Port of Antwerp|270|
+|cargo|378|
+|Leuven|431|
+|Marseille|1170|
+|Secretary-General of the United Nations|266|
+|CBS News|1159|
+|North Korea|3725|
+|Lisbon|1370|
+|Azerbaijan|2325|
+|ecocide|505|
+|Apollo 17|928|
+|Special Report on the Ocean and Cryosphere in a Changing Climate|114|
+|Sustainable Development Goal 14|389|
+|exclusive economic zone|1039|
+|commercial fishing|287|
+|oyster farming|294|
+|Jacques Cousteau|270|
+|water column|88|
+|Oxygen saturation|105|
+|fish meal|175|
+|Sustainable tourism|676|
+|seawater|1026|
+|rope|515|
+|Externality|395|
+|nutrient|890|
+|marine ecosystem|612|
+|Great Lakes|1907|
+|lake|2116|
+|irrigation|1246|
+|aquatic mammal|736|
+|marine mammal|1494|
+|in situ|250|
+|mammal|3268|
+|whale|1487|
+|Pinniped|1193|
+|zooplankton|1117|
+|blubber|213|
+|Aquatic toxicology|336|
+|Oil pollution toxicity to marine fish|145|
+|Federal Water Pollution Control Act|8|
+|Environmental Protection Agency|123|
+|environmental protection|408|
+|ASTM International|51|
+|Marine pollution|807|
+|toxicant|87|
+|NPDES|113|
+|water table|149|
+|clay|384|
+|bitumen|799|
+|ARCO|371|
+|South China Sea|1164|
+|Dallas, Texas|10|
+|BP|2399|
+|Pittsburgh|1244|
+|Superfund|287|
+|Exxon|457|
+|Mobil|615|
+|Arctic Climate Impact Assessment|76|
+|International Arctic Science Committee|137|
+|Arctic sea ice decline|448|
+|Arctic cooperation and politics|162|
+|Arctic Council|664|
+|Convention for the Protection of the Marine Environment of the North-East Atlantic|8|
+|Russian Association of Indigenous Peoples of the North|61|
+|Arctic Environmental Protection Strategy|106|
+|Inuit Circumpolar Council|163|
+|Northern Sea Route|262|
+|Faroe Islands|1593|
+|Northwest Passage|1178|
+|Saami Council|139|
+|Arctic Council Indigenous Peoples Secretariat#Aleut International Association - AIA|168|
+|United Nations Framework Convention on Climate Change|831|
+|Global Environment Facility|134|
+|Arctic Council Indigenous Peoples Secretariat#Arctic Athabaskan Council - AAC|168|
+|Arctic Council Indigenous Peoples Secretariat#Gwich'in Council International - GCI|168|
+|Protection of the Arctic Marine Environment|211|
+|Arctic Monitoring and Assessment Programme|73|
+|Arctic shipping routes|98|
+|Circumpolar peoples|158|
+|Ilulissat Declaration|119|
+|Troms�|983|
+|Iqaluit|603|
+|Rovaniemi|364|
+|waterway|209|
+|Stockholm Convention on Persistent Organic Pollutants|221|
+|Mercury pollution in the ocean|51|
+|Persistent organic pollutant|420|
+|sea level rise|1090|
+|Novaya Zemlya|305|
+|Kara Sea|338|
+|Channel (geography)|190|
+|Pechora Sea|219|
+|Construction aggregate|236|
+|Shetland|1394|
+|Kirkenes|247|
+|meltwater|171|
+|Arctic Refuge drilling controversy|457|
+|Natural Resources Defense Council|119|
+|National Wildlife Refuge|72|
+|Oil well|328|
+|oil|941|
+|IPCC Sixth Assessment Report|318|
+|Shared Socioeconomic Pathways|46|
+|Vietnam|4928|
+|Climate change in the Arctic|739|
+|natural resource|543|
+|Territorial waters|237|
+|polychlorinated biphenyl|907|
+|Arctic_Circle_(organization)#Assemblies_and_Forums|213|
+|Arden Warner|79|
+|TED (conference)|549|
+|Fionn Ferreira|100|
+|Fermilab|894|
+|Aromatic compound|264|
+|pyridine|678|
+|benzene|946|
+|toluene|286|
+|xylene|220|
+|tar|425|
+|Chao Phraya River|379|
+|National Science Foundation|531|
+|Vietnam War|2966|
+|Organoarsenic chemistry|220|
+|metabolite|106|
+|cobalt|1101|
+|lewisite|211|
+|Cambodia|2180|
+|sulfide|605|
+|soil|4713|
+|artificial reef|518|
+|Western Australia|764|
+|Ocean Conservancy|163|
+|Artisanal fishing|101|
+|fishing|1254|
+|Aspergillus niger|263|
+|United States Department of Justice|439|
+|United States dollar|1435|
+|Reporters Without Borders|274|
+|Nova Scotia|1259|
+|Chicago Tribune|873|
+|Stockholm|1483|
+|Asterias amurensis|287|
+|Kyushu|319|
+|Maine|1296|
+|Exhaust gas|289|
+|virus|2363|
+|Bangladesh|3202|
+|Atlantic City, New Jersey|2089|
+|Jersey Shore|1026|
+|The Bahamas|1182|
+|The Simpsons|1556|
+|Connecticut|1513|
+|Gulf of Maine|304|
+|North Atlantic Gyre|99|
+|sea surface temperature|467|
+|English Channel|1003|
+|OSPAR Convention|81|
+|Continental shelf|224|
+|oil pollution|10|
+|thermocline|115|
+|incineration|769|
+|sprat|179|
+|manatee|439|
+|Atlantic|72|
+|Atmospheric particulate matter|16|
+|gram-negative bacteria|370|
+|teichoic acid|87|
+|human|4380|
+|hydrolase|116|
+|Great Barrier Reef|1080|
+|sovereign state|303|
+|Coral Sea|451|
+|Tasman Sea|135|
+|Eastern Europe|931|
+|Jakarta|1797|
+|Queensland|1319|
+|Automatic identification system|417|
+|navigational aid|79|
+|Light-emitting diode|1296|
+|sea|3838|
+|buoy|236|
+|autotroph|328|
+|Redox|602|
+|Ayana Elizabeth Johnson|153|
+|University of California, San Diego|1285|
+|March for Science|489|
+|Marine conservation|563|
+|Gross domestic product|610|
+|Thor Heyerdahl|880|
+|Kazakhstan|2531|
+|ExxonMobil|997|
+|Bacillus pumilus|53|
+|Vibrio alginolyticus|17|
+|Bacillus submarinus|29|
+|Chromobacterium violaceum|58|
+|Bacillus|695|
+|peptidoglycan|481|
+|Bacillus subtilis|387|
+|Vibrio|307|
+|Pseudomonas aeruginosa|1009|
+|ecological stability|86|
+|toxic waste|254|
+|Streptomyces|361|
+|biofilm|748|
+|disinfectant|551|
+|Myxococcota|82|
+|nitrification|514|
+|Plastic Pollution Coalition|90|
+|Nassau, Bahamas|397|
+|Eleuthera|202|
+|youth|492|
+|Bahamas|115|
+|San Diego County, California|1690|
+|Ensenada, Baja California|428|
+|Sierra de Ju�rez|95|
+|Tijuana River|797|
+|Laguna Mountains|61|
+|commerce|318|
+|Balaclava (clothing)|58|
+|balancing lake|61|
+|storm sewer|17|
+|ballast tank|199|
+|zebra mussel|542|
+|blue mussel|123|
+|buoyancy|393|
+|Ballast water regulation in the United States|130|
+|Ballast Water Management Convention|90|
+|National Invasive Species Act|199|
+|Environmental issues with shipping|4|
+|Biosecurity Act 1993|20|
+|Vibrio cholerae|486|
+|Cercopagis pengoi|63|
+|Carcinus maenas|538|
+|Bythotrephes longimanus|57|
+|ballast water discharge|9|
+|ports|9|
+|United States Court of Appeals for the Ninth Circuit|642|
+|Best management practice for water pollution|124|
+|Environmental issues in the United States|175|
+|Environmental impact of shipping|10|
+|health|883|
+|graywater|9|
+|bilge|128|
+|Ballona Creek|316|
+|Los Angeles County, California|1459|
+|Santa Monica Bay|81|
+|The Ocean Cleanup|311|
+|storm drain|472|
+|U.S. Army|18|
+|salt marsh|782|
+|urbanization|606|
+|pesticides|193|
+|balloon|211|
+|myocardial infarction|1535|
+|Waste management|873|
+|polymer|1683|
+|Helsinki|1754|
+|recycling|929|
+|Ballydehob|73|
+|Republic of Ireland|2618|
+|County Cork|452|
+|Schull|74|
+|Saint Petersburg|1912|
+|Malm�|638|
+|dehydration|177|
+|sonar|845|
+|HELCOM|71|
+|List of sovereign states|918|
+|detention basin|52|
+|Convention on Biological Diversity|495|
+|state of emergency|2476|
+|marine reptile|144|
+|TRT World|133|
+|Sundarbans|852|
+|Maldives|1093|
+|erosion|1005|
+|straw|221|
+|Bank Line|45|
+|Deadweight tonnage|51|
+|Containerization|403|
+|Barbara Hendricks (politician)|178|
+|Barcelona Convention|54|
+|Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter|13|
+|Specially Protected Areas of Mediterranean Importance|16|
+|European Communities|176|
+|Protected areas|3|
+|UNEP|56|
+|Dardanelles|344|
+|Mediterranean|203|
+|The Moscow Times|282|
+|North Sea oil|291|
+|barge|254|
+|River Mersey|478|
+|Louisville, Kentucky|1350|
+|pelican|760|
+|Barrett Dam|35|
+|Cottonwood Creek (San Diego County)|32|
+|Morena Dam|47|
+|baryte|196|
+|Cornwall|1310|
+|Basel Convention|236|
+|Resource Conservation and Recovery Act|235|
+|incinerator bottom ash|51|
+|hazardous waste|520|
+|Cook Islands|506|
+|Environmental dumping|120|
+|seabird|1159|
+|Baton Rouge, Louisiana|997|
+|US Army Corps of Engineers|9|
+|New Orleans, Louisiana|18|
+|Mississippi River|2074|
+|Native Hawaiians|631|
+|Bay City News|19|
+|KCBS (AM)|406|
+|bay mud|230|
+|San Francisco Bay|619|
+|naval mine|806|
+|dolphin|1193|
+|BBC Two|561|
+|Uzbekistan|1487|
+|BBC Online|718|
+|Parliament of the United Kingdom|766|
+|Ministry of Defence (United Kingdom)|280|
+|beach nourishment|480|
+|Hawaii (island)|470|
+|Surfrider Foundation|46|
+|wind|1498|
+|beach|860|
+|Ocean current|158|
+|deposition (geology)|107|
+|recreation|308|
+|shore|302|
+|mangrove|762|
+|percolation|71|
+|Yorkshire|3343|
+|Coast|880|
+|becquerel|136|
+|Permanent Court of Arbitration|123|
+|Water Framework Directive|52|
+|temperature|2115|
+|Benthos|290|
+|bioindicator|281|
+|drinking water|947|
+|phenanthrene|61|
+|land use|288|
+|impervious surface|205|
+|silt fence|76|
+|evapotranspiration|346|
+|succinyl-CoA|33|
+|Betaproteobacteria|161|
+|Gammaproteobacteria|354|
+|Bettino Craxi|531|
+|Italian Socialist Party|767|
+|Christian Democracy (Italy)|572|
+|Ciriaco De Mita|240|
+|Big Blue Ocean Cleanup|51|
+|East Anglian Daily Times|30|
+|small and medium-sized enterprises|446|
+|James Fisher & Sons|49|
+|The Sunday Post|46|
+|Practical Boat Owner|35|
+|Companies House|338|
+|Kuala Lumpur|1764|
+|Earth Day|492|
+|Zac Efron|735|
+|Quinnipiac University|330|
+|Sky News|540|
+|Daily Mirror|372|
+|The Scotsman|105|
+|marine engineering|549|
+|York|1992|
+|Vancouver|1994|
+|Clacton-on-Sea|309|
+|Essex|1184|
+|Rowing|206|
+|PressReader|75|
+|Bigelow Laboratory for Ocean Sciences|44|
+|Oceanography|765|
+|Marpol Annex I|48|
+|Princess Cruises|706|
+|Caribbean Princess|93|
+|seaplane|431|
+|TheGuardian.com|499|
+|bucket|52|
+|United States Department of Homeland Security|692|
+|United States Armed Forces|2088|
+|U.S. Congress|30|
+|Billy Joel|1004|
+|We Didn't Start the Fire|186|
+|Long Island|2104|
+|biomagnification|141|
+|bioavailability|159|
+|biochemical oxygen demand|167|
+|nitrifying bacteria|157|
+|surface water|275|
+|Water chlorination|253|
+|effluent|136|
+|biodegradable plastic|587|
+|polyethylene terephthalate|551|
+|Polyhydroxyalkanoates|119|
+|polystyrene|1085|
+|biodegradable|34|
+|Great Pacific garbage patch|394|
+|Ideonella sakaiensis|140|
+|waste|1628|
+|MHETase|46|
+|environmental impact of agriculture|226|
+|IUCN Red List|266|
+|Municipal solid waste|245|
+|ecological resilience|303|
+|Earth Summit|157|
+|endangered species|428|
+|ecosystem service|669|
+|noise pollution|804|
+|Heat wave|206|
+|Marine heatwave|150|
+|Developing country|1148|
+|mining|1448|
+|seagrass|1123|
+|World Conservation Monitoring Centre|43|
+|mutation|1794|
+|sustainability|732|
+|Madagascar|1331|
+|Staphylococcus aureus|1346|
+|water cycle|623|
+|chemical substance|479|
+|mercury cycle|45|
+|Biogeographic realm|158|
+|Biogeosciences|45|
+|Biological agent|224|
+|biological warfare|869|
+|biological agents|9|
+|ontogeny|410|
+|nuclear warfare|1240|
+|chemical warfare|770|
+|Mercury in fish|1112|
+|Dichlorodiphenyldichloroethylene|54|
+|Biomimetics|501|
+|Bioremediation of oil spills|332|
+|polycyclic aromatic hydrocarbon|1035|
+|phenols|196|
+|ethane|360|
+|filter feeder|350|
+|loon|424|
+|plumage|320|
+|bis(2-ethylhexyl) phthalate|275|
+|hydraulic fluid|181|
+|Leaching (chemistry)|235|
+|Oxidative stress|579|
+|ester|919|
+|brominated flame retardant|95|
+|Endocrine disruptor|937|
+|Dispersion (chemistry)|248|
+|flame retardant|484|
+|heavy crude oil|223|
+|Road surface|819|
+|petroleum seep|318|
+|Oil refinery|1179|
+|Chumash people|398|
+|naphtha|227|
+|plutonium|1698|
+|butane|197|
+|Bivalvia|1135|
+|persistent organic pollutants|19|
+|turbidity|220|
+|Vladivostok|558|
+|IUCN Red List of Threatened Species|14|
+|strait|143|
+|blackwater (waste)|46|
+|Blowout (well drilling)|285|
+|Ixtoc I oil spill|87|
+|Deepwater Horizon explosion|603|
+|Kuwaiti oil fires|361|
+|Lakeview Gusher|48|
+|drilling rig|145|
+|Blue Hill, Maine|114|
+|Susan Shaw (conservationist)|201|
+|Norfolk, Virginia|1780|
+|Brooklin, Maine|93|
+|Blur (band)|530|
+|Damon Albarn|944|
+|Bomb disposal|381|
+|fuze|306|
+|port|3477|
+|Boom (containment)|30|
+|US Department of the Interior|3|
+|Border Field State Park|99|
+|Tijuana River National Estuarine Research Reserve|64|
+|Imperial Beach, California|274|
+|Playas de Tijuana|100|
+|Bosaso|338|
+|Boundary Waters Canoe Area Wilderness|412|
+|Boyan Slat|103|
+|Champions of the Earth|276|
+|Forbes 30 Under 30|245|
+|Marc Benioff|172|
+|Peter Thiel|865|
+|Delft|377|
+|United States Court of Appeals for the Fifth Circuit|414|
+|Torrey Canyon oil spill|91|
+|SS Torrey Canyon|71|
+|Trinidad and Tobago|2302|
+|Torrey Canyon|7|
+|waste oil|39|
+|lubricants|16|
+|Corexit|448|
+|Brazos River|162|
+|University of Texas at Austin|1004|
+|National Estuarine Research Reserve|114|
+|Port of San Diego|270|
+|Chula Vista, California|561|
+|Coronado, California|406|
+|tall ship|354|
+|Cork (city)|791|
+|p�tanque|229|
+|precautionary principle|314|
+|Bruce P. Luyendyk|154|
+|University of California, Santa Barbara|896|
+|Coal Oil Point seep field|73|
+|San Diego State University|777|
+|BT Young Scientist and Technology Exhibition|3|
+|Young Scientist and Technology Exhibition|278|
+|shipping container|97|
+|bulk carrier|576|
+|tanker (ship)|155|
+|container ship|343|
+|conveyor belt|182|
+|Chartering (shipping)|78|
+|engine room|74|
+|burning|17|
+|Combustion|824|
+|C.I.Agent Solutions|42|
+|cardiovascular disease|1003|
+|insoluble|5|
+|electrolyte|523|
+|caesium|1060|
+|hydrobromic acid|34|
+|Cairnryan|92|
+|Calabria|1230|
+|'Ndrangheta|1572|
+|citron|334|
+|calcination|110|
+|Suspension (chemistry)|114|
+|slag|404|
+|slurry|78|
+|California Department of Toxic Substances Control|58|
+|California State Lands Commission|16|
+|California State University, Northridge|1161|
+|University of Texas at Dallas|1300|
+|Illegal immigration to the United States|1172|
+|Orange County, California|2042|
+|Suisun Bay|75|
+|social media|2238|
+|United States Secretary of War|414|
+|Presidency of Calvin Coolidge|416|
+|Montreal|1871|
+|Laos|1178|
+|ton|530|
+|Camorra|1421|
+|Organized crime in Italy|762|
+|Triangle of death (Italy)|291|
+|industrial waste|164|
+|Santo Domingo|493|
+|pentito|125|
+|Livorno|1023|
+|St. John's, Newfoundland and Labrador|860|
+|University of British Columbia|777|
+|St. Lawrence River|475|
+|Quebec City|1192|
+|local government|1311|
+|carbazole|57|
+|Carbon sink|314|
+|carbon dioxide in Earth's atmosphere|841|
+|Instrumental temperature record|388|
+|Coral bleaching|1003|
+|Coca-Cola|2427|
+|meat industry|319|
+|inhalation|152|
+|surfactant|505|
+|Saline water|106|
+|No-till farming|301|
+|Saldanha Bay|58|
+|endocardium|70|
+|grain|197|
+|Carnival Cruise Line|533|
+|magic pipe|25|
+|Kingston, Jamaica|467|
+|Conservation International|86|
+|Honduras|1033|
+|Cruise Lines International Association|57|
+|Norwegian Cruise Line|366|
+|Cruise line|45|
+|Carnival Dream|80|
+|MS Azura|58|
+|Liquefied natural gas|875|
+|Galveston, Texas|1335|
+|Framework Convention for the Protection of the Marine Environment of the Caspian Sea|40|
+|List of lakes by area|353|
+|UN Environment Programme|6|
+|Evaporation|261|
+|Turkmenistan|2558|
+|ferry|790|
+|Cast Away|317|
+|Casuarina equisetifolia|91|
+|Estuary|535|
+|diesel exhaust fluid|160|
+|Cathodic protection|457|
+|nucleation|236|
+|Dallas|2790|
+|KHNL|633|
+|Celebrity Constellation|53|
+|Royal Caribbean Group|141|
+|Celsius|577|
+|dry ice|487|
+|Fahrenheit|305|
+|Center for American Progress|307|
+|centrifuge|201|
+|nuclear fuel|642|
+|settling|90|
+|fishing net|609|
+|cerebral palsy|639|
+|encephalitis|256|
+|Cetraro|50|
+|Melito di Porto Salvo|35|
+|Francesco Fonti|77|
+|Sebastiano Romeo|38|
+|San Luca|83|
+|Giuseppe Giorgi|28|
+|Natale Iamonte|69|
+|Goddard Space Flight Center|374|
+|Sylvia Earle|202|
+|Intracoastal Waterway|322|
+|Project Kaisei|118|
+|oceanographer|6|
+|Plastiki|52|
+|Charleston, South Carolina|1259|
+|Charlotte County, New Brunswick|101|
+|Chemical accident|45|
+|Chemical Corps|490|
+|Dugway sheep incident|121|
+|Operation Red Hat|98|
+|Government Accountability Office|263|
+|Shell (projectile)|850|
+|Operation CHASE|98|
+|Sinopec|334|
+|HDPE|29|
+|Chemical tanker|58|
+|Marine Protection, Research, and Sanctuaries Act of 1972|152|
+|Kuwait|3697|
+|Tabun (nerve agent)|124|
+|Mustard gas|448|
+|Chemistry|1729|
+|volume|573|
+|ultrasound|503|
+|World Nuclear Association|169|
+|Mainichi Shimbun|152|
+|vapor|299|
+|Virginia Beach, Virginia|1545|
+|Elizabeth River (Virginia)|99|
+|Chesapeake, Virginia|426|
+|Portsmouth, Virginia|662|
+|Cheung Chau|121|
+|Niger Delta|355|
+|Texaco|402|
+|Proceedings (magazine)|35|
+|organization|388|
+|leadership|1417|
+|East China Sea|213|
+|Coastline of China|86|
+|special drawing rights|251|
+|plateau|212|
+|Piraeus|586|
+|chirp|123|
+|toilet|551|
+|quarantine|686|
+|Pacific Time Zone|194|
+|semi-arid climate|153|
+|Chula Vista|11|
+|Santa Barbara Channel|103|
+|Cigarette#Environmental impact|1787|
+|ocean pollution|8|
+|photodegradation|89|
+|Districts of Indonesia|146|
+|Sukabumi Regency|171|
+|West Java|812|
+|Sundanese language|207|
+|Sukabumi|198|
+|village|690|
+|Gianni De Michelis|133|
+|Cisadane River|39|
+|CITGO Asphalt Refining Co. v. Frescati Shipping Co.|117|
+|Citizen science#Plastics and pollution|1105|
+|Citric acid cycle|986|
+|Civitavecchia|232|
+|Clark County, Kentucky|161|
+|Honshu|479|
+|Clean Boating Act of 2008|28|
+|Regulation_of_ship_pollution_in_the_United_States#Vessels_General_Permit|224|
+|Regulation of ship pollution in the United States#Uniform National Discharge Standards for armed forces vessels|231|
+|Local government in the United States|757|
+|U.S. Congressional Research Service|10|
+|Nonpoint source pollution|491|
+|Ocean Dumping Act|8|
+|point source|161|
+|Refuse Act|45|
+|Save the Arctic|186|
+|heavy fuel oil|142|
+|Short-haul flight ban|394|
+|Maersk|876|
+|The Conversation (website)|260|
+|Climate of San Diego#Precipitation|75|
+|Clinton Foundation|388|
+|Jeffrey Epstein|1366|
+|clothing|869|
+|University of California Natural Reserve System|231|
+|Ellwood Oil Field|86|
+|Refugio oil spill|335|
+|Tessa M. Hill|167|
+|Goleta, California|454|
+|Tarball (oil)|30|
+|George Vancouver|538|
+|Mola tecta|79|
+|Multibeam echosounder|100|
+|Venoco|73|
+|Coast Guard (Russia)|236|
+|Greenpeace Arctic Sunrise ship case|280|
+|Federal Security Service|820|
+|Sea turtle|1022|
+|Oil spill|481|
+|Flood|826|
+|deep sea mining|402|
+|The Coca-Cola Company|1007|
+|RC Cola|265|
+|Vicksburg, Mississippi|411|
+|Coccolithophore|1218|
+|Cocodrie, Louisiana|49|
+|cold ironing|114|
+|Collision between MV Testbank and MV Seadaniel|37|
+|United States District Court for the Eastern District of Louisiana|268|
+|Port of New Orleans|57|
+|pure economic loss|88|
+|United States Reports|44|
+|twenty-foot equivalent unit|31|
+|Port of Houston|162|
+|polychlorinated dibenzodioxins|625|
+|pentachlorophenol|85|
+|helmsman|109|
+|Particle aggregation|326|
+|toothpaste|640|
+|colostrum|240|
+|Columbia University Mailman School of Public Health|167|
+|Columbia University School of the Arts|438|
+|Hudson River|1408|
+|Santiago|1250|
+|United States Department of Commerce|27|
+|Fisheries management|544|
+|Fishing industry|497|
+|seafood|1236|
+|Comprehensive Environmental Response, Compensation, and Liability Act|15|
+|Concord Naval Weapons Station|86|
+|confetti|234|
+|New York State|9|
+|zoning|546|
+|whaling|813|
+|World Resources Institute|122|
+|Construction|682|
+|private sector|53|
+|International Chamber of Shipping|54|
+|contamination|125|
+|contemporary history|928|
+|the Pentagon|418|
+|propulsion|334|
+|Exploitation of natural resources|156|
+|Convention for the Prevention of Marine Pollution by Dumping from Ships and Aircraft|4|
+|Oslo Dumping Convention|51|
+|United Nations Convention to Combat Desertification|111|
+|London Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter|85|
+|United Nations Secretariat|136|
+|Palma de Mallorca|394|
+|Particle (ecology)|54|
+|laccase|55|
+|U. S. Geological Survey|4|
+|The Blob (Pacific Ocean)|87|
+|Coral reef protection|459|
+|ghost net|141|
+|tributyltin|148|
+|coral reefs|10|
+|List of largest protected areas|149|
+|US Coast Guard|8|
+|oil dispersants|283|
+|Corn Belt|64|
+|Iowa|1482|
+|United States Border Patrol|467|
+|San Diego Reader|49|
+|Marine salvage|639|
+|passenger ship|96|
+|valve|338|
+|Rio Alamar|90|
+|Tecate Creek|23|
+|Washington Post|37|
+|counterion|147|
+|Ion channel|685|
+|Natural environment|1148|
+|crematorium|132|
+|crowdfunding|424|
+|nozzle|98|
+|List of largest cruise ships|324|
+|cruise liner|6|
+|Cruise ship|1057|
+|Royal Caribbean International|551|
+|MSC Cruises|174|
+|Cruise ship pollution in Europe|280|
+|Dispersal of invasive species by ballast water|68|
+|Cruise ship pollution in the United States|345|
+|Harmony of the Seas|165|
+|Navigator of the Seas|86|
+|Oily water separator (marine)|89|
+|MS GNV Cristal|198|
+|Post-war aviation|181|
+|Naturschutzbund Deutschland|15|
+|grey water|4|
+|Giudecca Canal|35|
+|De Morgen|38|
+|Danilo Toninelli|43|
+|MSC Opera|56|
+|low-emission zone|196|
+|shore power|62|
+|mains electricity|306|
+|Scrubber#Scrubbers onships|230|
+|MSC Grandiosa|92|
+|defeat device|84|
+|Geirangerfjord|121|
+|Marchwood|116|
+|Funchal|343|
+|sink|170|
+|shower|229|
+|overtourism|201|
+|Regulation of ship pollution in the United States#No-discharge zones|225|
+|Marine Protection, Research and Sanctuaries Act|2|
+|Pollution prevention in the US|138|
+|territorial waters#Contiguous zone|239|
+|Parts-per notation#Parts-per expressions|244|
+|Marine Environmental Protection|2|
+|waste type|3|
+|grease (lubricant)|168|
+|Galveston|5|
+|Greywater|278|
+|cruise ship pollution|3|
+|Environmental effects of shipping|321|
+|crystallinity|63|
+|cutinase|162|
+|Lake Erie|1153|
+|epiphyte|112|
+|Cytochrome P450|808|
+|Rhodococcus|138|
+|Daily Telegraph|9|
+|John F. Kennedy|1600|
+|darkroom|59|
+|Dauphin Island, Alabama|247|
+|Dredging|340|
+|David Schindler|150|
+|phosphates|8|
+|mortality rate|165|
+|Lipophilicity|58|
+|De Wereld Draait Door|90|
+|Energy Independence and Security Act of 2007|259|
+|Human impact on the nitrogen cycle|255|
+|Nitrate in the Mississippi River Basin|72|
+|Effects of global warming on oceans|5|
+|Mississippi River Watershed Conservation Programs|130|
+|Diatom#Algae and plants|1362|
+|Diel vertical migration|289|
+|Substrate (marine biology)|23|
+|Long Point, Ontario|131|
+|Tyson Foods|424|
+|Smithfield Foods|427|
+|Jellyfish bloom|299|
+|Threatened species|157|
+|freshwater drum|89|
+|Saguenay River|184|
+|riparian buffer|170|
+|Nancy Rabalais|36|
+|Fish kill|474|
+|Greenpeace Canada|3|
+|Jelly-falls|77|
+|mummichog|237|
+|Desert|1217|
+|phys.org|11|
+|gross tonnage|99|
+|debris|156|
+|decibel|706|
+|mile|613|
+|Decommissioning of Russian nuclear-powered vessels|247|
+|Deep borehole disposal|99|
+|Ocean disposal of radioactive waste|72|
+|Yucca Mountain nuclear waste repository|532|
+|Waste Isolation Pilot Plant|254|
+|Horizontal drillhole disposal|38|
+|Ocean floor disposal|32|
+|Nuclear fuel cycle|941|
+|Heavy mineral sands ore deposits|207|
+|yttrium|807|
+|deep-water coral|317|
+|International Council for the Exploration of the Sea|136|
+|Deepwater Horizon drilling rig explosion|2|
+|environmental disaster|107|
+|Jutland|376|
+|Pound (mass)|351|
+|Styrofoam|121|
+|Deportation and removal from the United States|174|
+|Depression glass|69|
+|Nile|1189|
+|Design Museum|123|
+|Yves B�har|372|
+|Desmond Tutu|862|
+|William Hague|738|
+|destructive fishing practices|125|
+|Sustainable fishery|513|
+|desulfurization|23|
+|Flue-gas desulfurization|268|
+|suspended solids|51|
+|sex trafficking|481|
+|Dhanbad|559|
+|Jharkhand|1743|
+|pinnipeds|12|
+|High-density polyethylene|164|
+|tax|1631|
+|Dimethylmercury|127|
+|Minamata disease|486|
+|Directive (European Union)|89|
+|dispersant|123|
+|ferrofluid|399|
+|micelle|389|
+|disposable product|239|
+|Extended producer responsibility|256|
+|Plastic recycling|603|
+|Solvation|358|
+|Diversion dam|116|
+|Doctor of Public Health|225|
+|University at Albany, SUNY|454|
+|SeaWorld|353|
+|double hull|52|
+|Dr Pepper|506|
+|Nike, Inc.|164|
+|Dr.P.H.|3|
+|snowmelt|163|
+|roof|392|
+|dredger|3|
+|drift seed|67|
+|driftwood|212|
+|Sea glass|156|
+|drilling platform|3|
+|ingestion|85|
+|driveway|23|
+|Drowning|644|
+|Drug injection|365|
+|syringe|399|
+|oil spills|16|
+|DSM (company)|148|
+|DSSAM Model|67|
+|line source|142|
+|Durrus|68|
+|University of Groningen|602|
+|World Environment Day|212|
+|Santa Barbara, California|833|
+|Spaceship Earth|84|
+|Hewlett-Packard|825|
+|United Nations Conference on the Human Environment|130|
+|High-level Political Forum on Sustainable Development|94|
+|World Oceans Day|210|
+|National Ocean Service|311|
+|Ocean heat content|400|
+|ocean floor|27|
+|United Nations Conference on Sustainable Development|336|
+|ecomafia|32|
+|Toxic waste dumping by the 'Ndrangheta|103|
+|Legambiente|68|
+|Ecosystem approach|95|
+|grebe|486|
+|hypothermia|350|
+|preening|303|
+|Effluent sewer|71|
+|sewerage|128|
+|risk assessment|616|
+|Elizabeth Wilson|135|
+|immunosuppression|95|
+|Illegal, unreported and unregulated fishing|232|
+|Environmental law|372|
+|Energy efficiency in transport|218|
+|Marine fuel management|125|
+|MSC Napoli|176|
+|Orkney|1447|
+|Enterobacter|104|
+|Radioactive waste|1213|
+|vessel speed restrictions to reduce ship collisions with North Atlantic right whales|37|
+|Environmental threats to the Great Barrier Reef|597|
+|Merchant Shipping Act 1995|62|
+|Slow steaming|26|
+|knot (unit)|175|
+|Oslo, Norway|3|
+|source reduction|40|
+|waste minimization|4|
+|hull (watercraft)|169|
+|maritime history|1748|
+|Mobility transition|651|
+|methanotroph|176|
+|underground storage tank|127|
+|environmental impact assessment|287|
+|Environmental movement in the United States|498|
+|esterase|102|
+|Plastic particle water pollution|5|
+|Plastic resin pellet pollution|7|
+|Silver sulfide|99|
+|gram-positive bacteria|289|
+|phosphodiester bond|142|
+|Thiol|389|
+|glutathione|209|
+|Phytoplankton|641|
+|environmental impact of the petroleum industry|597|
+|Gulf War oil spill|111|
+|greenhouse gases|33|
+|Environmental issues in the Niger Delta|585|
+|UNDP|18|
+|marine plastic pollution|1370|
+|environmental monitoring|417|
+|Water Pollution Control Act|5|
+|Phil Radford|310|
+|Ted Turner|535|
+|Eric G. Gibson|58|
+|Erosion control|92|
+|sediment control|114|
+|Erosion#Rainfall and runoff|561|
+|Thames Estuary|358|
+|scale model|617|
+|Lipase|245|
+|estuaries|43|
+|Puget Sound|522|
+|Raritan River|329|
+|land runoff|10|
+|Ethylene glycol|424|
+|Ethylmercury|109|
+|Mercury poisoning|566|
+|UN|2062|
+|evidence-based policy|531|
+|Evo Morales|1361|
+|UN Convention on the Law of the Sea|4|
+|Exfoliation (cosmetology)|158|
+|Exiguobacterium|143|
+|Exoenzyme|634|
+|explosive booster|91|
+|Exponential distribution|233|
+|Steve Cowper|53|
+|Minister (government)|114|
+|Grigory Pasko|56|
+|Gazprom|1076|
+|Lamma Island|148|
+|Staten Island|1348|
+|Southern California Bight|249|
+|Pacific herring|203|
+|Microplastics|1684|
+|International Science and Engineering Fair|243|
+|Google Science Fair|178|
+|Intellectual Ventures|216|
+|Greentech Media|39|
+|Regeneron Pharmaceuticals|182|
+|Viva Technology|98|
+|ISEF|4|
+|firefighter|1062|
+|Firth of Clyde|412|
+|fish hydrolysate|76|
+|fish processing|297|
+|hagfish|696|
+|Fisheries subsidy|55|
+|Fishing industry in China|692|
+|Global Fishing Watch|30|
+|sustainable yield|65|
+|Fishing line|221|
+|fishing regulation|2|
+|International Convention on Civil Liability for Oil Pollution Damage|30|
+|Flash flood|169|
+|flood forecasting|11|
+|riparian zone|445|
+|green infrastructure|543|
+|Yangtze|1089|
+|Florida Keys National Marine Sanctuary|147|
+|List of water sports|158|
+|short ton|63|
+|Foot (unit)|520|
+|Metre|1385|
+|Fort Belan|40|
+|Fort Morgan, Alabama|41|
+|Fort Walton Beach, Florida|257|
+|Fractional distillation|218|
+|Ilaria Alpi|113|
+|Miran Hrovatin|25|
+|SISMI|128|
+|International Tribunal for the Law of the Sea|255|
+|Fresh Kills Landfill|281|
+|frosted glass|32|
+|torpedo|810|
+|Halomonas|119|
+|Garbage Patch State|102|
+|Headquarters of the United Nations|882|
+|Maria Cristina Finucci|90|
+|Irina Bokova|503|
+|Garden furniture|69|
+|Sinking of the Rainbow Warrior|339|
+|Rainbow Warrior (1955)|184|
+|State Duma|360|
+|Geographic information system|729|
+|resource management|48|
+|Presidency of Richard Nixon|1253|
+|geothermal activity|52|
+|geranium|190|
+|Ghislaine Maxwell|558|
+|The TerraMar Project|63|
+|The London Gazette|85|
+|Stuart Beck|87|
+|gin|413|
+|Girdwood, Anchorage, Alaska|56|
+|snowpack|66|
+|Glasnost Defense Foundation|82|
+|Glass Beach (Fort Bragg, California)|94|
+|Global catastrophic risk|291|
+|Global change|162|
+|Global citizenship|275|
+|World community|69|
+|Global Environmental Facility|3|
+|UGM-27 Polaris|309|
+|Goat Canyon (Tijuana River Valley)|189|
+|Tijuana River Valley, San Diego|37|
+|International Boundary Wastewater Treatment Plant|28|
+|Tijuana River Estuary|73|
+|Smuggler's Gulch|230|
+|Government|400|
+|Governors Island|809|
+|Gracilibacillus|26|
+|gram#SI multiples|155|
+|Vaseline|56|
+|Great Canadian Shoreline Cleanup|26|
+|World Cleanup Day|40|
+|Plastic pellet pollution|121|
+|Methylmercury|359|
+|Lockheed C-130 Hercules|757|
+|Ocean Voyages Institute|19|
+|Scientific Reports|75|
+|Junk raft|32|
+|Kaisei (ship)|33|
+|Green imperialism|80|
+|infiltration (hydrology)|165|
+|urban flooding|104|
+|List of Nobel Peace Prize laureates|593|
+|Investigative Committee of Russia|84|
+|Leninsky Administrative Okrug, Murmansk|22|
+|Judiciary of Russia#Cassation courts|757|
+|Kalininsky District, Saint Petersburg|30|
+|Primorsky District, Saint Petersburg|24|
+|Judiciary of Russia#Regional courts|757|
+|Prohibition of drugs|1100|
+|Prirazlomnoye field|169|
+|RIA Novosti|120|
+|Peter Willcox|78|
+|NTV (Russia)|245|
+|John Key|626|
+|Jody Williams|56|
+|Leymah Gbowee|345|
+|Tawakkol Karman|426|
+|Mairead Maguire|399|
+|Shirin Ebadi|432|
+|Julia Marton-Lef�vre|49|
+|piracy|1716|
+|hooliganism|143|
+|Prirazlomnaya|10|
+|gun|537|
+|Knife|603|
+|Guatemala City|458|
+|Portland, Maine|1043|
+|gully|190|
+|Temperate coniferous forest|129|
+|hermit crab|418|
+|Halifax, Nova Scotia|955|
+|Halsbury's Statutes|33|
+|Hansa Carrier|29|
+|hardscape|34|
+|hashtag|247|
+|Hastings, Nebraska|271|
+|Hawaiian language|759|
+|Kau, Hawaii|48|
+|Hawaii Tribune-Herald|58|
+|Heal the Bay|55|
+|Hydrocarbon|457|
+|Salmon|1800|
+|hexavalent chromium|553|
+|United States Secretary of the Army|76|
+|Waste minimisation|282|
+|homeland security|184|
+|Honolulu Weekly|19|
+|Unexploded ordnance|848|
+|Wildlife|269|
+|Watercraft|98|
+|lactation|412|
+|Humus|452|
+|topsoil|221|
+|Hunger (physiology)|304|
+|Idaho State University|337|
+|sea lane|98|
+|waste types|2|
+|refuse-derived fuel|127|
+|Volumetric flow rate|116|
+|Robert E. Horton|77|
+|Ingredients of cosmetics|202|
+|Inland waterways of the United States|295|
+|Intergovernmental Oceanographic Commission|39|
+|intermittent river|116|
+|Internal waters|49|
+|International Boundary and Water Commission|148|
+|International Boundary Water Commission|5|
+|International Convention for the Prevention of Pollution of the Sea by Oil|29|
+|International Convention on Civil Liability for Bunker Oil Pollution Damage|19|
+|Rivers and Harbors Act|143|
+|native species|116|
+|Ridgway's rail|126|
+|IPIECA|17|
+|Isabella L�vin|108|
+|Japanese language|1010|
+|Janthina janthina|79|
+|Japanese Nuclear Safety Commission|73|
+|Jeffrey T. Miller|47|
+|San Diego City Council|261|
+|Jet stream|514|
+|jewellery|1502|
+|United States Atomic Energy Commission|254|
+|Reserve fleet|60|
+|John F. Shafroth|70|
+|Joseph Schlitz Brewing Company|221|
+|Judith Selby Lang|101|
+|Julius Baer Group|148|
+|Jurassic Coast|324|
+|siltation|117|
+|Kamilo Beach|76|
+|Scaevola (plant)|250|
+|Thespesia populnea|167|
+|Pinales|506|
+|Strangling|130|
+|Keith Beven|65|
+|Kelp|423|
+|Kermadec_Islands#Conservation|262|
+|Kia|422|
+|Kilogram|499|
+|Kilometre|145|
+|Kingston Harbour|85|
+|Klang River|111|
+|Selangor|1288|
+|Kosmos 954|99|
+|trench|161|
+|La Hague site|88|
+|Lachine Canal|236|
+|landscape maintenance|29|
+|lanthanum|391|
+|Las Vacas River|36|
+|Law of the United States|786|
+|Lehigh Valley|1603|
+|Leonor Sullivan|58|
+|Lewinella|32|
+|National Defense Reserve Fleet|191|
+|Sausalito, California|561|
+|Lifeguard|584|
+|Lighter|145|
+|Limitation of Liability Act of 1851|19|
+|Sintra|464|
+|Odyssey (tanker)|44|
+|List of sunken nuclear submarines|53|
+|liter#SI prefixes applied to the litre|6|
+|Litre|432|
+|Llanberis|150|
+|Llandwrog|70|
+|RAF Llandwrog|279|
+|Operation Sandcastle|52|
+|Loader (equipment)|247|
+|London Convention (1972)|2|
+|Low-level radioactive waste policy of the United States|95|
+|Marine Protection, Research, and Sanctuaries Act|14|
+|Oslo Convention for the North-East Atlantic|2|
+|Prime meridian (Greenwich)|148|
+|Trestle bridge|168|
+|lost, mislaid, and abandoned property|220|
+|Low-density polyethylene|118|
+|Lubricant|435|
+|Ma Wan|191|
+|Oil discharge monitoring equipment|24|
+|Major facilitator superfamily|253|
+|Marine and Coastal Access Act 2009|29|
+|United Nations Ocean Conference|141|
+|Marine debris#Plastic|620|
+|The Ocean Cleanup#Interceptor river clean-up|235|
+|Newcastle, New South Wales|678|
+|Receiver of Wreck|93|
+|Tokio Express|59|
+|Scapa Flow|160|
+|reusable packaging|143|
+|Property law|519|
+|treasure trove|409|
+|scuttling|329|
+|marine diesel oil|21|
+|offshore platform|9|
+|U.S. Coast Guard environmental protection|6|
+|sea star wasting disease|89|
+|Ocean temperature|300|
+|wind stress|367|
+|Subsidence (atmosphere)|20|
+|Northeast Pacific|5|
+|teleconnection|51|
+|Outgassing|142|
+|Porpita porpita|65|
+|marine outfall|179|
+|New York Bight|56|
+|sustainability of fisheries|2|
+|noise|599|
+|Plasticosis|51|
+|UNEP-WCMC|7|
+|Title 16 of the United States Code|179|
+|Stellwagen Bank National Marine Sanctuary|76|
+|Monterey Bay National Marine Sanctuary|215|
+|Radionuclide|437|
+|marine sanitation device|63|
+|marine technology|58|
+|marine toxicologist|7|
+|Maritime Research Institute Netherlands|41|
+|Mark Rober|225|
+|Team Trees|276|
+|Team Seas|59|
+|YouTuber|415|
+|MrBeast|805|
+|pollution of the seas|2|
+|Oil record book|70|
+|Marston Mat|124|
+|neurotoxicity|179|
+|Measures of pollutant concentration|59|
+|Medical Waste Tracking Act|96|
+|Order in Council|127|
+|Merchant Shipping Act|183|
+|Oslo Convention|4|
+|mercury sulfide|37|
+|Methyl mercury|11|
+|Minamata Bay|52|
+|tricarboxylic acid cycle|6|
+|Methylocella silvestris|63|
+|microbead|348|
+|plastic pollution#Effects of plastic on oceans and seabirds|1120|
+|Milhouse Van Houten|109|
+|Milton Castellanos Everardo|58|
+|United Kingdom of Great Britain and Northern Ireland|4|
+|Missions of the United States Coast Guard|356|
+|The Marine Mammal Center|124|
+|morphogenesis|280|
+|Moulting|265|
+|Mr. Trash Wheel|62|
+|Mukhisa Kituyi|30|
+|Operation Geranium|30|
+|MV Treasure oil spill|66|
+|National interest|36|
+|Office of Naval Research|121|
+|Naval Base Kitsap|56|
+|Naval Weapons Station Earle|48|
+|Salisbury|729|
+|Wildlife Conservation Society|154|
+|Oregon Coast Aquarium|197|
+|Newport, Wales|1883|
+|Nokomis 3|24|
+|North American Development Bank|7|
+|Roger Payne|138|
+|North Carolina's 1st congressional district|614|
+|Northwest Pacific Action Plan|20|
+|Ocean Alliance|452|
+|Ocean governance|109|
+|oil content meter|24|
+|Port reception facilities|33|
+|Oil Pollution Act of 1924|38|
+|Presidency of Lyndon B. Johnson|855|
+|United States energy law|493|
+|Prince William Sound Regional Citizens' Advisory Council|42|
+|United States v. Locke|34|
+|Trans-Alaska Pipeline Authorization Act|38|
+|Walter B. Parker|150|
+|wetlands of Louisiana|260|
+|water associated fraction|94|
+|pink salmon|245|
+|Personal grooming#In animals|69|
+|Shovel|131|
+|Shoreline|19|
+|quinoline|125|
+|Oily water separator|2|
+|USS Tatnuck (ATA-195)|20|
+|USS Koka (ATA-185)|65|
+|Richard D. McCarthy|26|
+|scuttled|5|
+|seacock|26|
+|RAF Bowes Moor|71|
+|River Rhine|4|
+|Overexploitation#Fisheries|414|
+|oxygenase|56|
+|Vibrio parahaemolyticus|82|
+|United States withdrawal from the Paris Agreement|617|
+|pavement (roads)|2|
+|Peter Thomson (diplomat)|172|
+|Petroleum#Reservoirs|1469|
+|PHBV|68|
+|phenylacetic acid|97|
+|phytotoxicity|62|
+|Plan II|3|
+|Plastic degradation by marine bacteria|173|
+|Psychrobacter|99|
+|Tenacibaculum|87|
+|Polyvinyl chloride#Phthalate plasticizers|465|
+|Port of Durban|36|
+|Plastics engineering|95|
+|Shek O|81|
+|Pocono Creek|11|
+|San Antonio de los Buenos|22|
+|Political campaign|247|
+|U.S. states|8|
+|Terephthalic acid|222|
+|Portland Community College|98|
+|University of Texas|4|
+|private limited company|358|
+|Vicks|47|
+|Reuters UK|3|
+|SUPER HI-CAT|24|
+|surfer|2|
+|surfboard|298|
+|toy|462|
+|Rostov-on-Don|732|
+|Whitehorse|610|
+|United States District Court for the Northern District of California|325|
+|Sturgeon Bay Ship Canal|78|
+|ship pollution|13|
+|REMPEC|9|
+|SafeMed II Project|12|
+|rill|98|
+|River mouth|82|
+|Safilo Group|87|
+|Salmon run|804|
+|San Diego National Wildlife Refuge Complex|62|
+|Tijuana Slough National Wildlife Refuge|59|
+|Tijuana Municipality|165|
+|Tecate Municipality|79|
+|San Diego State University College of Sciences|44|
+|sea pottery|43|
+|teal|101|
+|sentinel species|90|
+|Shaw Institute|96|
+|Shifting cultivation|330|
+|Shopify|412|
+|Skinny Puppy|1195|
+|VIVIsectVI|503|
+|Telegram (software)|945|
+|Society of Woman Geographers|100|
+|Soil erosion#Rainfall and runoff|1126|
+|State University of New York at Albany|2|
+|Steven Haft|80|
+|Stockholm Resilience Centre|90|
+|Stormwater#Stormwater management|588|
+|Vertisol|74|
+|throughflow|11|
+|sustainability#Freshwater and oceans|494|
+|Sustainable business|452|
+|United Nations Office of Legal Affairs|40|
+|Technology transfer|304|
+|VPRO|53|
+|United Nations Office for Partnerships|20|
+|Woburn, Massachusetts|290|
+|vessel monitoring system|137|
+|voluntary compliance|15|
+|Wu Hongbo|32|
+|United Nations-Oceans|29|

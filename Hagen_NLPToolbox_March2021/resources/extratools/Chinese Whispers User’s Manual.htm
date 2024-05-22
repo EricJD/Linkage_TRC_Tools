@@ -1,0 +1,2765 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 9">
+<meta name="Originator" content="Microsoft Word 9">
+<link rel="File-List" href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/CW-Dateien/filelist.xml">
+<link rel="Edit-Time-Data" href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/CW-Dateien/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Chinese Whispers User’s Manual</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>b</o:Author>
+  <o:LastAuthor>L. Steiner</o:LastAuthor>
+  <o:Revision>27</o:Revision>
+  <o:LastPrinted>2006-05-16T15:49:00Z</o:LastPrinted>
+  <o:Created>2006-05-16T15:50:00Z</o:Created>
+  <o:LastSaved>2007-11-13T11:02:00Z</o:LastSaved>
+  <o:Pages>11</o:Pages>
+  <o:Words>3706</o:Words>
+  <o:Characters>21129</o:Characters>
+  <o:Company>Uni Leipzig</o:Company>
+  <o:Lines>176</o:Lines>
+  <o:Paragraphs>42</o:Paragraphs>
+  <o:CharactersWithSpaces>25947</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:536902279 -2147483648 8 0 511 0;}
+@font-face
+	{font-family:Courier;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+h1
+	{mso-style-next:Text;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:18.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	mso-ansi-language:EN-GB;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+h2
+	{mso-style-next:Text;
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+h3
+	{mso-style-next:Standard;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+h4
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+h5
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;
+	font-style:italic;}
+h6
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Standard;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex6, li.MsoIndex6, div.MsoIndex6
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex7, li.MsoIndex7, div.MsoIndex7
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex8, li.MsoIndex8, div.MsoIndex8
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndex9, li.MsoIndex9, div.MsoIndex9
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:108.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-update:auto;
+	mso-style-next:Standard;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	tab-stops:center 8.0cm right 16.0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	tab-stops:center 8.0cm right 16.0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading
+	{mso-style-next:"Index 1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:22.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:27.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-27.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-GB;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin-right:0cm;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+code
+	{mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+p.Text, li.Text, div.Text
+	{mso-style-name:Text;
+	mso-style-next:"Text Indent";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-ansi-language:EN-US;}
+p.TextIndent, li.TextIndent, div.TextIndent
+	{mso-style-name:"Text Indent";
+	mso-style-parent:Text;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:14.4pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	mso-ansi-language:EN-US;}
+p.p1a, li.p1a, div.p1a
+	{mso-style-name:p1a;
+	mso-style-next:Standard;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Times;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;}
+p.cmd, li.cmd, div.cmd
+	{mso-style-name:cmd;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:27.0pt;
+	text-align:justify;
+	text-indent:-27.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:FR;
+	font-style:italic;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:687367439;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1902488724 -646958072 2064291806 -1056910228 -610107324 458774192 598540140 1538395806 655515482 -1714103242;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1212620554;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-801209922 -227660820 1294338712 -305620682 615035588 -2112028850 -336590708 1665830806 113559336 -877383544;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1055"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body style="-moz-user-select: text;" lang="DE" link="blue" vlink="purple">
+
+<div class="Section1">
+
+<p class="MsoTitle"><span lang="EN-GB">Chinese Whispers User Manual</span></p>
+
+<p class="MsoSubtitle"><span lang="EN-GB">Chris Biemann</span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span style="font-size:14.0pt" lang="EN-GB">Version 1.0, May 2006<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span style="font-size:14.0pt" lang="EN-GB"><img id="_x0000_i1038" src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/whisper.jpg" height="41" width="41"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt" lang="EN-GB"><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/index.htm">back
+to main page</a><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><b><span style="font-size:16.0pt" lang="EN-GB">Table of
+Contents<o:p></o:p></span></b></p>
+
+<p class="MsoToc1" style="tab-stops:right dotted 453.1pt"><!--[if supportFields]><span
+lang=EN-GB><span style='mso-element:field-begin'></span><span
+style="mso-spacerun: yes"> </span>TOC \o &quot;1-3&quot; \h \z <span
+style='mso-element:field-separator'></span></span><![endif]--><span lang="EN-GB"><span class="MsoHyperlink"><a href="#_Toc181505374"><span style="mso-bidi-font-size:
+18.0pt">Introduction</span><span style="color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505374 \\h&quot;">1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370034000000</w:data>
+</xml><![endif]--></span></span></a></span></span></p>
+
+<p class="MsoToc1" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505375"><span style="mso-bidi-font-size:18.0pt">Installation</span><span style="color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505375 \\h&quot;">1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370035000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505376"><span style="mso-bidi-font-size:14.0pt">Running the program</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">.. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505376 \\h&quot;">1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370036000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc1" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505377"><span style="mso-bidi-font-size:18.0pt">Experimenting with CW</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">... </span><span style="mso-field-code:&quot;PAGEREF _Toc181505377 \\h&quot;">1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370037000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505378"><span style="mso-bidi-font-size:14.0pt">How CW works</span><span style="color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505378 \\h&quot;">2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370038000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505379">Options<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505379 \\h&quot;">3<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300370039000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505380"><span style="mso-bidi-font-size:14.0pt">Operating the GUI</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted"> </span><span style="mso-field-code:&quot;PAGEREF _Toc181505380 \\h&quot;">4<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380030000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505381">Input<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted"> </span><span style="mso-field-code:&quot;PAGEREF _Toc181505381 \\h&quot;">5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380031000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505382">Output as graph<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505382 \\h&quot;">5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380032000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505383">Output as Diagram<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">.. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505383 \\h&quot;">6<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380033000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505384">Output in File<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505384 \\h&quot;">7<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380034000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505385">Using a Database<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505385 \\h&quot;">8<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380035000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505386"><span style="mso-bidi-font-size:14.0pt">Operating the command line version</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505386 \\h&quot;">9<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380036000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505387"><span style="mso-bidi-font-size:14.0pt">Use CW in your own program</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">.. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505387 \\h&quot;">9<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380037000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505388">Classes and
+Methods<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:
+none;text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505388 \\h&quot;">9<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380038000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc3" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505389">Example:<span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted"> </span><span style="mso-field-code:&quot;PAGEREF _Toc181505389 \\h&quot;">10<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300380039000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc2" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505390"><span style="mso-bidi-font-size:14.0pt">Acknowledgements</span><span style="color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505390 \\h&quot;">11<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300390030000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoToc1" style="tab-stops:right dotted 453.1pt"><span class="MsoHyperlink"><span lang="EN-GB"><a href="#_Toc181505391"><span style="mso-bidi-font-size:18.0pt">References</span><span style="color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none"><span style="mso-tab-count:1 dotted">. </span><span style="mso-field-code:&quot;PAGEREF _Toc181505391 \\h&quot;">11<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100380031003500300035003300390031000000</w:data>
+</xml><![endif]--></span></span></a></span></span><span style="mso-ansi-language:
+DE"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><!--[if supportFields]><span
+lang=EN-GB><span style='mso-element:field-end'></span></span><![endif]--><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h1><a name="_Toc181505374"><span lang="EN-GB">Introduction</span></a></h1>
+
+<p class="MsoNormal"><span lang="EN-GB">Chinese Whispers, henceforth abbreviated CW,
+is an efficient graph clustering algorithm. It has been described first in
+[Biemann and Teresniak 2005] and more elaborately in [Biemann 2006]. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">CW is a clustering algorithm that clusters
+undirected, weighted graphs. Its run-time complexity is linear in the number of
+edges, which makes CW in comparison a very efficient algorithm. The output is a
+fuzzy partitioning (non-hierarchical) of the graph.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The reader is referred to the papers
+mentioned above for motivation, detailed algorithm description and possible
+application areas of CW. This manual merely contains instructions how to use
+the Graphical User Interface (GUI) and the command line version of CW and
+provides only short, informal descriptions of the algorithm.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The CW program is licensed under the Gnu
+Public License, see <a href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h1><a name="_Toc181505375"><span lang="EN-GB">Installation</span></a></h1>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h2><a name="_Toc181505376"><span style="mso-ansi-language:EN-GB" lang="EN-GB">Running
+the program</span></a><span style="mso-ansi-language:EN-GB" lang="EN-GB"><o:p></o:p></span></h2>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US" lang="EN-US">A
+description how to install a module you find at the <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/index.htm">main
+page</a> of the ASV toolbox Project.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US" lang="EN-US">The line
+you have to copy into the toolbox.start file look like this:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;
+mso-ansi-language:EN-US" lang="EN-US">de.uni_leipzig.asv.toolbox.ChineseWhispers.WTool</span><span style="mso-ansi-language:EN-US" lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Start the Toolbox using the .bat or .sh
+file.</span></p>
+
+<h1><a name="_Toc181505377"><span lang="EN-GB">Experimenting with CW</span></a></h1>
+
+<p class="MsoNormal"><span lang="EN-GB">This section deals with how to operate CW. In
+section 3.1, a short introduction on how CW works is given. It is recommended
+to first get acquainted with the GUI (described in section 3.2) to get a
+feeling for what CW does and what the effects of the different options are. If
+you want to use CW in batch mode, section 3.3 tells you how to specify the
+command line options. </span></p>
+
+<h2><a name="_Toc181505378"><span style="mso-ansi-language:EN-GB" lang="EN-GB">How
+CW works</span></a><span style="mso-ansi-language:EN-GB" lang="EN-GB"><o:p></o:p></span></h2>
+
+<p class="MsoNormal"><span lang="EN-GB">In this section the CW algorithm is
+outlined roughly. Please consider [Biemann 2006] for details. CW is a very
+basic – yet effective – algorithm to partition the nodes of weighted,
+undirected graphs. It is motivated by the eponymous children’s game, where
+children whisper words to each other. While the game’s goal is to arrive at
+some funny derivative of the original message by passing it through several
+noisy channels, the CW algorithm aims at finding groups of nodes that broadcast
+the same message to their neighbours. </span></p>
+
+<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+DE;mso-bidi-language:AR-SA" lang="EN-GB"><br style="page-break-before:always" clear="all">
+</span>
+
+<p class="MsoNormal"><span lang="EN-GB">The algorithm is outlined like this:</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-align:left;text-indent:0cm" align="left"><span style="font-family:&quot;Courier New&quot;;mso-ansi-language:IT" lang="IT">initialize: <br>
+&nbsp;forall v<sub>i</sub> in V: class(v<sub>i</sub>)=i;</span><span style="font-size:5.0pt;font-family:&quot;Courier New&quot;;mso-ansi-language:IT" lang="IT"><o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-align:left;text-indent:0cm" align="left"><span style="font-size:5.0pt;font-family:&quot;Courier New&quot;;mso-ansi-language:
+IT" lang="IT"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-align:left;text-indent:0cm" align="left"><span style="font-family:&quot;Courier New&quot;;mso-ansi-language:EN-GB" lang="EN-GB">while
+changes:<o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-align:left;text-indent:0cm" align="left"><span style="font-family:&quot;Courier New&quot;;mso-ansi-language:EN-GB" lang="EN-GB">&nbsp;forall
+v in V, randomized order:<o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-align:left" align="left"><span style="font-family:&quot;Courier New&quot;;mso-ansi-language:EN-GB" lang="EN-GB">&nbsp;class(v)=highest
+ranked class <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in
+neighbourhood of v;<o:p></o:p></span></p>
+
+<p class="TextIndent" style="text-indent:0cm"><span style="mso-ansi-language:
+EN-GB" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Intuitively, the algorithm works as follows
+in a bottom-up fashion: First, all nodes get different classes. Then the nodes
+are processed for a small number of iterations and inherit the strongest class in
+the local neighbourhood in an update step. The strongest class is the class
+whose sum of edge weights to the current node is maximal. In case of multiple
+strongest classes, one is chosen randomly. Regions of the same class stabilize
+during the iteration and grow until they reach the border of a stable region of
+another class. Note that classes are updated immediately: a node can obtain
+classes from the neighborhood that were introduced there in the same iteration.
+</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The CW algorithm cannot cross component
+boundaries, because there are no edges between nodes belonging to different
+components. Further, nodes that are not connected by any edge are discarded
+from the clustering process, which possibly leaves a portion of nodes
+unclustered. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Apart from ties, the classes usually do not
+change any more after a handful of iterations. The number of iterations depends
+on the diameter of the graph.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The result of CW is a hard partitioning of
+the given graph into a number of partitions that emerges in the process – CW is
+parameter-free (yet a lot of options can be chosen in this implementation). It
+is possible to obtain a soft partitioning by assigning a class distribution to
+each node, based on the weighted distribution of (hard) classes in its
+neighbourhood in a final step. The result of CW is non-deterministic, i.e. the
+clustering the same graph several times can result in different outcomes. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">A graph is specified by a list of nodes and
+a list of edges. Nodes have IDs and labels, edges consist of two node ids and
+an edge weight. For example, a triangle graph with nodes A B and C and edge
+weights A-B =10, A-C =20, B-C = 30 is encoded like this:</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><u><span lang="EN-GB">Node List:<o:p></o:p></span></u></p>
+
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt"><span lang="EN-GB">A</span></p>
+
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt"><span lang="EN-GB">B</span></p>
+
+<p class="MsoNormal" style="margin-left:36.0pt;text-indent:-18.0pt"><span lang="EN-GB">C</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><u><span lang="EN-GB">Edge list:<o:p></o:p></span></u></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Please note that the edge list is
+symmetric. CW will run for non-symmetrical edge lists of edge lists that
+specify different weights for different directions of the same edge, but this
+is unexplored and not recommended.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">When reading the graph from files, the
+columns (as in the triangle example) are tab-separated. See the folder
+“examples” for sample graphs. When reading the graph from a database, the
+columns are to be specified in the database panel. Note that the edge list must
+have an additional primary key (see database scheme).</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For the moment, edge weights are positive
+integer values. A version that accepts floating point numbers as weights is
+planned in the near future.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505379"><span lang="EN-GB">Options</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">Different options can be set to change the outcome
+of CW. The algorithm option can be set to four values: <i>top</i>, <i>dist log</i>,
+<i>dist nolog</i> and <i>vote</i> (with a threshold). The difference is
+illustrated in figure 1: Here, the centre node A changes its label in an update
+step differently, according to the option chosen, which influences the ranking
+of the classes in the neighbourhood of nodes: <i>top</i>&nbsp;sums over the
+neighbourhood’s classes, <i>dist</i> downgrades the influence of a neighbouring
+node by its degree (number of edges of node) and <i>vote</i> is the same as <i>top
+</i>but needs a minimum fraction (this is the numerical parameter) for a class
+change to take place.</span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1039" type="#_x0000_t75" style='width:234pt;
+ height:159.75pt'>
+ <v:imagedata src="./CW-Dateien/image001.jpg" o:title="image002"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image001.jpg" v:shapes="_x0000_i1039" border="0" height="213" width="312"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB">Figure
+1: An update situation for node A</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The strengths of classes for the situation
+in figure 1 are, dependent on the algorithm option:</span></p>
+
+<p class="MsoNormal"><i><span lang="EN-GB">top</span></i><span lang="EN-GB">:&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+strength(<b>L3</b>)=9; strength (L4)=8; strength (L2)=5</span></p>
+
+<p class="MsoNormal"><i><span lang="EN-GB">dist nolog</span></i><span lang="EN-GB">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strength (<b>L2</b>)=5;
+strength (L4)=4; strength (L3)=2.2</span></p>
+
+<p class="MsoNormal"><i><span lang="EN-GB">dist log</span></i><span lang="EN-GB">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+strength (<b>L4</b>)=7.28; strength (L3)=5.51; strength (L2)=3.46</span></p>
+
+<p class="MsoNormal"><i><span lang="EN-GB">vote</span></i><span lang="EN-GB">:&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+strength (<b>L3</b>)=0.409; strength (L4)=0.363; strength (L2)=0.227</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">If the vote threshold is set to a value
+above 0.409, then A keeps its label L1.</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Other options are:</span></p>
+
+<ul style="margin-top:0cm" type="disc">
+ <li class="MsoNormal" style="mso-list:l0 level1 lfo3;tab-stops:list 36.0pt"><span lang="EN-GB">mutation option and numerical value: With some probability, a
+     node changes to a yet unused class. This mutation rate can be
+     exponentially decreasing in the iteration or constant. The numerical
+     parameter is the speed of decrease and the mutation rate in the constant
+     case, respectively.</span></li>
+ <li class="MsoNormal" style="mso-list:l0 level1 lfo3;tab-stops:list 36.0pt"><span lang="EN-GB">keep class rate: With this probability, a node is not updated
+     but keeps its class until the next iteration. If e.g. this parameter is
+     set to 0.1, then in average in a 20 nodes graph, 2 nodes do not perform
+     any update step</span></li>
+ <li class="MsoNormal" style="mso-list:l0 level1 lfo3;tab-stops:list 36.0pt"><span lang="EN-GB">update strategy: stepwise vs. constant. In stepwise mode, the
+     updates are not performed immediately, but take effect in the next
+     iteration. In continuous update mode, a node can spread its class in the
+     same iteration as it received it. The continuous option converges faster.</span></li>
+</ul>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The default setting for CW is option <i>top</i>,
+keep class rate 0, mutation constant with rate 0 (no mutation) and continuous
+update. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">If stepwise update is chosen and neither
+mutation nor keep class rate is switched on, the algorithm might converge to a
+set of oscillating states, see [Biemann 2006].</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h2><a name="_Toc181505380"><span style="mso-ansi-language:EN-GB" lang="EN-GB">Operating
+the GUI</span></a><span style="mso-ansi-language:EN-GB" lang="EN-GB"><o:p></o:p></span></h2>
+
+<p class="MsoNormal"><span lang="EN-GB">After starting CW, you will see a welcome
+panel as shown in figure 2:</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1040" type="#_x0000_t75"
+ style='width:234pt;height:174.75pt'>
+ <v:imagedata src="./CW-Dateien/image002.jpg" o:title="image004"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image002.jpg" v:shapes="_x0000_i1040" border="0" height="233" width="312"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 2: Welcome Panel</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">In the upper part you can chose between
+this and three other panels. The second panel is the main panel as shown in
+figure 3:</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1041" type="#_x0000_t75"
+ style='width:267.75pt;height:201pt'>
+ <v:imagedata src="./CW-Dateien/image003.jpg" o:title="image006"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image003.jpg" v:shapes="_x0000_i1041" border="0" height="268" width="357"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 3: Main Panel</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505381"><span lang="EN-GB">Input</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">In the main panel, the source of the graph
+to be clustered and the destination of the output can be specified. For input,
+you can choose between files and database. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The options “keep graph in RAM” should be
+unchecked only if you use graphs that do not fit into your machine’s main
+memory. Selecting the option “Input is pre-numbered” does not compress the
+temporary binary files your graph will be encoded to, but saves time and RAM
+for large graphs.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For output, you can decide between either
+writing the output to files or to a database, or displaying the outcome of the
+algorithm in an interactive graph window or in a diagram that shows
+quantitative characteristics of the result.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For the moment, chose “</span><span style="font-family:&quot;Courier New&quot;" lang="EN-GB">20nodes.txt</span><span lang="EN-GB">” in the folder “</span><span style="font-family:&quot;Courier New&quot;" lang="EN-GB">examples</span><span lang="EN-GB">” as node list and “</span><span style="font-family:&quot;Courier New&quot;" lang="EN-GB">20edges.txt</span><span lang="EN-GB">” in the same folder as edge list.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505382"><span lang="EN-GB">Output as graph</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">Press the button for the graph display. A
+new windows should open up, looking like figure 4:</span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1042" type="#_x0000_t75" style='width:201pt;height:209.25pt'>
+ <v:imagedata src="./CW-Dateien/image004.jpg" o:title="image008"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image004.jpg" v:shapes="_x0000_i1042" border="0" height="279" width="268"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB">Figure
+4: A sample graph with 20 nodes</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Now pull the slider next to “Iteration” to
+the right. You will follow the different clusterings in increasing iterations
+of CW. This could look like in figure 5:</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1043"
+ type="#_x0000_t75" style='width:201pt;height:209.25pt'>
+ <v:imagedata src="./CW-Dateien/image004.jpg" o:title="image008"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image004.jpg" v:shapes="_x0000_i1043" border="0" height="279" width="268"><!--[endif]-->&nbsp;&nbsp; <!--[if gte vml 1]><v:shape
+ id="_x0000_i1044" type="#_x0000_t75" style='width:218.25pt;height:228pt'>
+ <v:imagedata src="./CW-Dateien/image005.jpg" o:title="image012"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image005.jpg" v:shapes="_x0000_i1044" border="0" height="304" width="291"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB">Figure
+5: different iterations for the 20 nodes sample graph</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Different colours represent different
+classes. If you move the mouse over a node (cf. fig. 4, lower right corner),
+you get information on to what extent the node belongs to different classes.
+For switching between labelled and unlabeled nodes, use the button “node
+labels” in the upper controls. You can also change the size of the nodes using “+”
+and “-“.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">If you use a wheel mouse, you can zoom in
+and out using the wheel. For all other users, a zoom window is provided (click
+on “zoom”) that allows you to broaden or to narrow your view on the graph.
+Figure 6 illustrates the zoom window.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1045" type="#_x0000_t75" style='width:214.5pt;height:223.5pt'>
+ <v:imagedata src="./CW-Dateien/image006.jpg" o:title="image014"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image006.jpg" v:shapes="_x0000_i1045" border="0" height="298" width="286"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB">Figure
+6: Zoom window</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For graphs with more than a couple of
+hundred nodes, the graph display becomes slow and not laid out good enough to
+reveal any structure. To be able to still view the graph, a sub graph view was
+implemented that only displays the neighbourhood of some specified nodes of
+particular interest. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For the following couple of figures, the
+7lang-graph as available in the examples was used. (</span><span style="font-family:&quot;Courier New&quot;" lang="EN-GB">7lang_nodes.txt</span><span lang="EN-GB"> and </span><span style="font-family:&quot;Courier New&quot;" lang="EN-GB">7lang_edges.txt</span><span lang="EN-GB">). This graph comprises the significant co-occurrences of a corpus compiled
+from seven different languages. CW clusters the words according to the
+language, see [Biemann and Teresniak 2005].</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Figure 7 shows how to specify a node for
+the sub graph by clicking on “add” in the graph window. Here, we entered “de”,
+the label of a node. It is possible to add several nodes. As soon as “show” is
+clicked, only the sub graph as induced by the neighbourhoods of the specified
+nodes (including these nodes) is drawn. Alternatively, you can add nodes to the
+sub graph by double-clicking on them.</span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1046" type="#_x0000_t75" style='width:252pt;height:262.5pt'>
+ <v:imagedata src="./CW-Dateien/image007.jpg" o:title="image016"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image007.jpg" v:shapes="_x0000_i1046" border="0" height="350" width="336"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 7: Adding a node to the sub graph</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Figure 8 shows the sub graph for “de”. In
+the sub graph, you can add further nodes or return to the overall graph by
+using the “close”-button.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The lower part of the graph window allows
+to change algorithm parameters. The “refresh”-button results in re-calculation
+of the algorithm without changing the graph layout.</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1047" type="#_x0000_t75"
+ style='width:246pt;height:255.75pt'>
+ <v:imagedata src="./CW-Dateien/image008.jpg" o:title="image018"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image008.jpg" v:shapes="_x0000_i1047" border="0" height="341" width="328"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 8: The sub graph for “de”.</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505383"><span lang="EN-GB">Output as Diagram</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">Another possibility of displaying the
+result of CW is to draw the distribution of cluster sizes in a graph. This
+happens when using the graph button in the main panel (figure 3). A diagram
+window opens, figure 9 shows the diagram for the 7-lang graph.</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1048" type="#_x0000_t75"
+ style='width:281.25pt;height:238.5pt'>
+ <v:imagedata src="./CW-Dateien/image009.jpg" o:title="image020"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image009.jpg" v:shapes="_x0000_i1048" border="0" height="318" width="375"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 9: Diagram for the 7-lang graph</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">From figure 9 it is visible that there are
+a couple of large clusters (lower right corner), some medium-sized clusters and
+a large number of small clusters. This cluster distribution, especially the
+linear progression in this log-log-scale plot, is typical for applying CW on
+so-called small world graphs.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">It is possible to enable other algorithm
+options in order to compare them and to save the diagram in picture format.
+Figure 10 displays what happens after enabling all options and pressing the
+“refresh”-button. Note that all parameters not adjustable in the diagram window
+(such as mutation, update strategy, keep class rate, minimum edge weight and
+number if iterations) stay the same. </span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1049" type="#_x0000_t75"
+ style='width:267.75pt;height:231pt'>
+ <v:imagedata src="./CW-Dateien/image010.jpg" o:title="image022"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image010.jpg" v:shapes="_x0000_i1049" border="0" height="308" width="357"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 10: many runs in one diagram</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Note that in comparison to the <i>top</i>
+option, the <i>dist log</i>&nbsp;option produces more and smaller clusters. The
+<i>dist nolog</i> option results in even more and even smaller clusters
+breaking the larg clusters apart. Using <i>vote 0.9</i> here leads to many
+classes with only one member (upper left corner of diagram). </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505384"><span lang="EN-GB">Output in File</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">The output of CW can not only be displayed
+as a graph or as a diagram, it can also be written to a file or to a database.
+When checking “write to file” in the main panel and then pressing “start”, a
+file dialogue will open after the clustering has been finished and two files
+will be written: A file including soft clustering information and a file with
+the extension .read that contains the classes in a readable format, but without
+soft clustering information. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For the 20-nodes sample graph, the result
+file looks like this:<o:p></o:p></span></p>
+
+<table style="border-collapse:collapse;
+ mso-padding-alt:0cm 0cm 0cm 0cm" border="0" cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">node ID<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">node label<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">class ID <o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">class 1 ID<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">class 1 %<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">class2 ID<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:11.0pt" lang="EN-GB">class 2 %<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">3<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">3<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">4<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">4<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">5<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">5<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">6<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">6<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">7<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">7<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">8<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">8<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">9<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">9<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">11<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">11<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">12<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">12<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">13<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">13<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">14<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">14<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">15<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">15<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">16<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">16<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">17<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">17<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">18<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">18<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">19<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">19<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext windowtext -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-bottom:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color -moz-use-text-color windowtext" valign="top" width="72">
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:48.5pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="65">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">20<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">20<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">90.0<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;border:none;border-right:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;border-color:-moz-use-text-color windowtext -moz-use-text-color -moz-use-text-color" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1<o:p></o:p></span></p>
+  </td>
+  <td style="width:54.0pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="72">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">10.0</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The columns contain the following
+information:</span></p>
+
+<ul style="margin-top:0cm" type="disc">
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">node ID: the ID number of the node</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">node label: the corresponding label. In this example, ID and
+     label are equal</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">class ID: the class from clustering. Here, the graph is
+     clustered into two parts</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">class 1 ID: the prominent class in the neighbourhood</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">class 1 %: The strength of class 1 in %</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">class 2 ID: the second prominent class in the neighbourhood</span></li>
+ <li class="MsoNormal" style="mso-list:l1 level1 lfo6;tab-stops:list 36.0pt"><span lang="EN-GB">class 2 %: The strength of class 2 in %</span></li>
+</ul>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The read file could have this content:</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="p1a"><span style="font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+EN-GB" lang="EN-GB">classID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #
+members&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+labels<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1, 2, 3, 4, 5, 6, 7,
+8, 9, 10<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11, 12, 13, 14, 15,
+16, 17, 18, 19, 20</span></p>
+
+<p class="MsoIndexHeading"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">This means that class 1 (col. 1) has 10
+members (col. 2) and their labels are 1, 2, 3, 4, 5, 6, 7, 8, 9 and 10. Class 2
+has also 10 members with labels 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">In the expert panel (figure 11), all the
+parameters can be specified in the “ALGORITHM” section. Additionally, the
+minimum edge weight threshold can be set that leads to ignoring edges that fall
+short this threshold. This is effectively the main parameter, for CW. Further,
+the number if iterations can be set. Changes do only take effect if the
+“apply”-Button below is pressed. </span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape id="_x0000_i1050" type="#_x0000_t75"
+ style='width:314.25pt;height:235.5pt'>
+ <v:imagedata src="./CW-Dateien/image011.jpg" o:title="image024"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image011.jpg" v:shapes="_x0000_i1050" border="0" height="314" width="419"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 11: The expert panel</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">Changes in the “GRAPH SETTINGS” section
+only affect the display of the graph in the graph window, not the algorithm
+itself. Setting the degree of nodes to a positive value, say 5, will only
+display nodes that have a lower degree than 5, therefore omitting so-called
+“hubs”. This often leads to a nicer layout of the graph. To see only the highly
+connected nodes of a degree more than say, 20, set the degree of nodes to the
+negative value of –20.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The maximum number of edges to draw is a
+means not to slow down the process of graph drawing&nbsp; too much by painting
+only the edges with the highest weight. The scale changes the granularity of
+the display.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505385"><span lang="EN-GB">Using a Database</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB">If you want to use a database for your
+graphs and/or for your results, the database panel as depicted in figure 12
+provides the possibility to provide the necessary information. Note that the
+fields can only be edited if the corresponding source/destination has been
+chosen in the main panel.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">In the database settings, the database is
+specified. The program was only tested with the MySQL 5.0 database server so
+far. See <a href="http://dev.mysql.com/doc/mysql/en/">http://dev.mysql.com/doc/mysql/en/</a>
+for details and <a href="http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/</a>
+for downloads. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">This manual is not meant to introduce you
+to databases, so if you do not use databases anyway, you can safely skip the
+remainder of the section.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The graph should be provided in two tables,
+similar to the file input format. Tables have names and columns, which can be
+set in the respective input fields. Please note that for the reason of being
+able to handle large graphs, edge tables must have an additional numerical
+primary key column (which is found automatically). For illustration, a sample
+database with <b><span style="color:black">some graphs</span> </b>is included
+in the distribution in the folder </span><span style="font-family:
+&quot;Courier New&quot;" lang="EN-GB">db_cw</span><span lang="EN-GB">. To make this database available
+to your MySQL system, simply copy the folder and all its contents into the data
+directory (e.g. C:\Programs\MySQL\MySQL Server 5.0\data). </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">The output table will be created or
+overwritten and contains the same information as the result file.</span></p>
+
+<p class="MsoNormal" style="text-align:center" align="center"><span lang="EN-GB"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1051" type="#_x0000_t75" style='width:287.25pt;height:215.25pt'>
+ <v:imagedata src="./CW-Dateien/image012.jpg" o:title="image026"/>
+</v:shape><![endif]--><!--[if !vml]--><img src="Chinese%20Whispers%20User%E2%80%99s%20Manual-Dateien/image012.jpg" v:shapes="_x0000_i1051" border="0" height="287" width="383"><!--[endif]--></span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt;text-align:center" align="center"><span lang="EN-GB">Figure 12: database panel</span></p>
+
+<p class="MsoNormal" style="margin-left:18.0pt"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h2><a name="_Toc181505386"><span style="mso-ansi-language:EN-GB" lang="EN-GB">Operating
+the command line version</span></a><span style="mso-ansi-language:
+EN-GB" lang="EN-GB"> <o:p></o:p></span></h2>
+
+<p class="MsoNormal"><span lang="EN-GB">All settings that can be undertaken in the
+GUI can also be applied in a CW command line run. This is meant for people that
+are already familiar with CW and want to use it as part of a system in batch
+mode or do not have a graphical display. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">To see the command line options, start CW
+with a command line parameter, e.g.</span></p>
+
+<p class="cmd"><span style="mso-ansi-language:EN-GB" lang="EN-GB">java -Xmx500M
+-classpath .;./lib/ASV_CW.jar -Djava.ext.dirs=.;./lib
+de.uni_leipzig.asv.toolbox.ChineseWhispers.main.Start -h<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">You will see the following text in your
+terminal:</span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-H | -h | --help&nbsp;&nbsp; Writes out this Help.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-D Use database specified in CW_DBproperties.ini as input.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-F Use files specified by -i as input.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-i Use files as input.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+filename1&nbsp; The node list 2-col.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+filename2&nbsp; The edge list 3-col.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-a Sets the algorithm options<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+"top"<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+"dist_nolog"<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+"dist_log"<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+"vote x" with x in [0.0,1.0]<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-t Weight threshold (default 0)<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-k Keep class rate (default 0.0)<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+</span><span style="font-size:9.0pt;font-family:Courier;mso-ansi-language:
+FR" lang="FR">-m Mutation mode [dec|constant] value(pos.real)<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier;
+mso-ansi-language:FR" lang="FR">&nbsp;&nbsp; </span><span style="font-size:
+9.0pt;font-family:Courier" lang="EN-GB">-d Number of iterations x&gt;0 (default x=20).<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-o Writes clustering to filename.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;&nbsp;
+filename&nbsp;&nbsp;&nbsp; The filename for output.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-O Writes clustering into database specified in CW_DBproperties.ini.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-S Do not renumber input.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">&nbsp;&nbsp;
+-R keep graph on disk (large graphs).</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">This should enable you to specify the options
+as described in the GUI section. </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For example, to cluster the sample 20-nodes
+graph with algorithm option “dist log”, keep class rate 0.44, constant mutation
+rate of 0.21, using 17 iterations and writing the output to a result table as
+specified in </span><span style="font-size:9.0pt;font-family:Courier" lang="EN-GB">CW_DBproperties.ini</span><span lang="EN-GB">, type the following:</span></p>
+
+<p class="cmd"><span style="mso-ansi-language:EN-GB" lang="EN-GB">java -Xmx500M
+-classpath .;./lib/ASV_CW.jar -Djava.ext.dirs=.;./lib
+de.uni_leipzig.asv.toolbox.ChineseWhispers.main.Start -F -i
+examples/20nodes.txt examples/20edges.txt -a dist_log -k 0.44 -m constant 0.21
+-d 17 -O<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">For clustering the 7lang-graph with default
+CW options into a result file named 7lang_result.txt, use </span></p>
+
+<p class="cmd"><span style="mso-ansi-language:EN-GB" lang="EN-GB">java -Xmx500M
+-classpath .;./lib/ASV_CW.jar -Djava.ext.dirs=.;./lib
+de.uni_leipzig.asv.toolbox.ChineseWhispers.main.Start -F -i
+examples\7lang_nodes.txt examples\7lang_nodes.txt -o 7lang_result.txt<o:p></o:p></span></p>
+
+<h2><a name="_Toc181505387"><span style="mso-ansi-language:EN-GB" lang="EN-GB">Use
+CW in your own program</span></a><span style="mso-ansi-language:
+EN-GB" lang="EN-GB"><o:p></o:p></span></h2>
+
+<h3><a name="_Toc181505388"><span lang="EN-GB">Classes and Methods</span></a></h3>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">It is easy to use CW in your own program.
+All you need to know is just one class called ChineseWhispers which you find in
+the package de.uni_leipzig.asv.toolbox.ChineseWhispers.algorithm.</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<table style="border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt" border="0" cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><b><span lang="EN-GB">method/field<o:p></o:p></span></b></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal"><b><span lang="EN-GB">description<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">boolean graphInMemory</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  field<br>
+  true means graph will be hold in RAM</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">boolean isNumbered</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  field<br>
+  true means your nodes and edges are numbered<br>
+  false means your nodes and edges will be renumbered during the algorithm</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">setGraph(String nodes, String edges)</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  method<br>
+  set the nodes file(String nodes) and the edge file(String edges) which should
+  be used</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+  none;text-autospace:none" align="left"><span lang="EN-GB">setCWParameter(int </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">min_weight,
+  <br>
+  String opt, String opt_value,<span style="mso-tab-count:1"> </span><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>double keep_value, <br>
+  String mut, double mut_value,<o:p></o:p></span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">String update,
+  int iterations, boolean fileordb</span><span lang="EN-GB">)</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  method<br>
+  This Method set all parameters for the algorithm.</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">opt
+  and opt_value correspond with the command line parameter -a</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">opt =
+  top set opt_value to “”</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">opt =
+  dist set opt to “log” or “nolog”</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">opt =
+  vote set opt_value to “x”, x in [0.0,1.0]</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">min_weight
+  correspond with -t</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">keep_value
+  correspond with –k</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">mut
+  and mut_value correspond with –m</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">update
+  could be stepwise or continuous</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">fileordb
+  correspond with –F and -D</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">run()</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  method<br>
+  start the algorithm</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">String consoleChooserString_colors</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  field<br>
+  String represent the file for output</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">String consoleChooserString_colors_read</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  field</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">String
+  represent the read file for output</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:230.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="307">
+  <p class="MsoNormal"><span lang="EN-GB">writeFiles(boolean withFiledialog,</span></p>
+  <p class="MsoNormal"><span lang="EN-GB">boolean withClusters,</span></p>
+  <p class="MsoNormal"><span lang="EN-GB">boolean useFileParameters)</span></p>
+  </td>
+  <td style="width:624.3pt;padding:0cm 3.5pt 0cm 3.5pt" valign="top" width="832">
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">public
+  method<br>
+  write output files<br>
+  withfiledialog: if it is true a file dialog for choosing the files will open</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">withClusters:
+  if true clusters will be written to output</span></p>
+  <p class="MsoNormal" style="text-align:left" align="left"><span lang="EN-GB">useFileParameters:
+  if true for output the 2 above described<span style="mso-spacerun: yes">&nbsp;
+  </span>file parameter will be used</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h3><a name="_Toc181505389"><span lang="EN-GB">Example:</span></a></h3>
+
+<p><span style="mso-ansi-language:EN-GB" lang="EN-GB">Here are an example of a
+JAVA class(CWTest.java) using the CW tool. You can find the class CWTest.java
+in the package </span><span style="mso-bidi-font-size:10.0pt;
+color:black;mso-ansi-language:EN-GB" lang="EN-GB">de.uni_leipzig.asv.toolbox.tests.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><b><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">package</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+de.uni_leipzig.asv.toolbox.tests;</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><b><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">import</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+de.uni_leipzig.asv.toolbox.ChineseWhispers.algorithm.ChineseWhispers;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><b><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">public</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">class</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+CWTest {</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">public</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">static</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">void</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+main(String[] args) {</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>ChineseWhispers
+cw = </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;
+color:#7F0055" lang="EN-GB">new</span></b><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> ChineseWhispers();</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#0000C0" lang="EN-GB">graphInMemory</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> = </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">false</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#0000C0" lang="EN-GB">isNumbered</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> = </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">false</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.setCWGraph(</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"./examples/cw/20nodes.txt"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">, </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"./examples/cw/20edges.txt"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">);</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">int</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+min_weight = 0, iterations = 20;</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>String
+opt = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;
+color:#2A00FF" lang="EN-GB">"dist"</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">, opt_value = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"log"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">double</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">
+keep_value = 0.0, mut_value = 1.0;</span><span style="font-size:
+10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>String
+mut = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;
+color:#2A00FF" lang="EN-GB">"dec"</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">, update = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"continuous"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.setCWParameters(min_weight,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>opt,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>opt_value,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>keep_value,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>mut,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>mut_value,</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>update,</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span>iterations,
+</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ </span></span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">true</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">);</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#3F7F5F" lang="EN-GB">//file
+or db</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.run();</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#3F7F5F" lang="EN-GB">//save
+file parameters</span><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#0000C0" lang="EN-GB">consoleChooserString_colors</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"./examples/cw/20nodesandedges_colors.txt"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#0000C0" lang="EN-GB">consoleChooserString_colors_read</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB"> = </span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#2A00FF" lang="EN-GB">"./examples/cw/20nodesandedges_colors.read"</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">;</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>cw.writeFile(</span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">false</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">, </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">true</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">, </span><b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#7F0055" lang="EN-GB">true</span></b><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:black" lang="EN-GB">);</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;color:#3F7F5F" lang="EN-GB">//without
+filedialog, with cluster, fromconsole=use file parameters above</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">}</span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p><span style="mso-bidi-font-size:10.0pt;mso-ansi-language:EN-GB" lang="EN-GB">You
+can start this test. Below you see the output of the test on console. The files
+will be look like the one you find in the section </span><a href="#_Toc135565176"><span style="mso-ansi-language:EN-GB" lang="EN-GB">Output
+in File</span><span style="color:windowtext;display:none;mso-hide:
+all;mso-ansi-language:EN-GB;text-decoration:none;text-underline:none" lang="EN-GB">. </span><!--[if supportFields]><span
+style='mso-element:field-begin'></span><span lang=EN-GB style='color:windowtext;
+display:none;mso-hide:screen;mso-ansi-language:EN-GB;text-decoration:none;
+text-underline:none'><span style="mso-spacerun: yes"> </span>PAGEREF _Toc135565176
+\h </span><span style='mso-element:field-separator'></span><![endif]--><span style="color:windowtext;display:none;mso-hide:all;mso-ansi-language:
+EN-GB;text-decoration:none;text-underline:none" lang="EN-GB">9</span><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100330035003500360035003100370036000000</w:data>
+</xml><![endif]--><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--></a><span class="MsoHyperlink"><span style="color:windowtext;mso-ansi-language:
+EN-GB;text-decoration:none;text-underline:none" lang="EN-GB"> .</span></span><span style="mso-bidi-font-size:10.0pt;mso-ansi-language:EN-GB" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">*<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>Renumbering
+nodes and edges:</span><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>--<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>Node list renumbered:</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>./examples/cw/20nodes.txt.renumbered</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>--<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>Edge list renumbered:</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>./examples/cw/20edges.txt.renumbered</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">*<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>done.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">Checking sortedness: Sort: order={ 0 2 1 } types={ i
+i I }</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">[ChineseWhispers] initialized with parameters:<span style="mso-tab-count:1"> </span></span><span style="font-size:10.0pt;
+font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>minimum
+weight: 0</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>number of
+iterations: 20</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>algorithm
+option: dist log</span><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>keep
+color rate: 0.0</span><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>mutation
+strategy: dec</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>mutation
+rate: 1.0</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>update
+strategy: continuous</span><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>*<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>Writing files:</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>./examples/cw/20nodesandedges_colors.read</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>./examples/cw/20nodesandedges_colors.txt</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="text-align:left;mso-layout-grid-align:
+none;text-autospace:none" align="left"><span style="font-size:10.0pt;font-family:
+&quot;Courier New&quot;;color:black" lang="EN-GB">*<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>done.</span><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;" lang="EN-GB"><o:p></o:p></span></p>
+
+<p><span style="mso-bidi-font-size:10.0pt;color:black;mso-ansi-language:
+EN-GB" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="Text"><span style="mso-ansi-language:EN-GB" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<h2><a name="_Toc181505390"><span lang="EN-US">Acknowledgements</span></a></h2>
+
+<p class="cmd" style="margin-left:0cm;text-indent:0cm"><span style="mso-ansi-language:EN-GB;font-style:normal" lang="EN-GB">CW was developed by Chris
+Biemann at the University of Leipzig. The GUI was implemented by Sebastian
+Gottwald, Rocco Gwizdziel and Chris Biemann. Thanks goes to all the testers
+from the NLP Department, University of Leipzig. Further, thanks goes to
+Vincenzo Moscati for the name of the algorithm. Special thanks goes to Uwe
+Quasthoff for many fruitful discussions.<o:p></o:p></span></p>
+
+<h1><a name="_Toc181505391"><span lang="EN-GB">References</span></a></h1>
+
+<p class="MsoNormal"><span lang="EN-GB">[Biemann 2006] Biemann, C. (2006): Chinese
+Whispers - an Efficient Graph Clustering Algorithm and its Application to
+Natural Language Processing Problems. Proceedings of the HLT-NAACL-06 Workshop
+on Textgraphs-06,&nbsp;New York, USA. <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/pub/2006/BiemannTextGraph06.pdf">http://wortschatz.uni-leipzig.de/~cbiemann/pub/2006/BiemannTextGraph06.pdf</a></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB">[Biemann and Teresniak 2005] Biemann, C.,
+Teresniak, S. (2005): Disentangling from Babylonian Confusion - Unsupervised
+Language Identification, Proceedings of CICLing-2005, Computational Linguistics
+and Intelligent Text Processing, Mexico City, Mexico and Springer LNCS 3406 </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/pub/2005/cicling05.pdf">http://wortschatz.uni-leipzig.de/~cbiemann/pub/2005/cicling05.pdf</a></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-size:14.0pt" lang="EN-GB"><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/index.htm">back
+to main page</a></span></p>
+
+</div>
+
+
+
+
+</body></html>

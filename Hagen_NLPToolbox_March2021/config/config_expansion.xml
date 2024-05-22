@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<!-- google key (please use your own key!) -->
+	<googleKey>
+		yLdww45QFHLLNAJdBaJlyoHffx0pRYtq
+	</googleKey>
+	
+	<!-- This is the query to be expanded and eventually be searched for -->
+	<query>
+		mobile collaboration
+	</query>
+	
+	<!-- significance threshold for co-occurrences -->
+	<sigThreshold>
+		3.85
+	</sigThreshold>
+	
+	<!-- how many co-occurrence words to (maximally) associate with each word -->
+	<limit>
+		3
+	</limit>
+	
+	<!-- how many of the query words must a new word be associated with in order to be an expansion candidate? -->
+	<minAss>
+		1
+	</minAss>
+	
+	<!-- how many words should the (own) profile consists of? -->
+	<profileLength>
+		100
+	</profileLength>
+	
+	<!-- how many words should a document description consist of? -->
+	<descriptionLength>
+		20
+	</descriptionLength>
+	
+</config>

@@ -1,0 +1,38 @@
+This is Trigrams'n'Tags, the statistical part of speech tagger.
+
+The license for the evaluation version in this directory is
+valid until February 28, 2001.
+
+INSTALLATION:
+
+The programs come in a compressed (gzip) archive file (tar) (zip-ed for
+Windows), by default named tnt-VERSIONINFO.tar.gz for the Linux and
+Solaris, tnt-VERSIONINFO.zip for windows. Move this file to a directory of
+your choice. Here, a sub-directory `tnt' will be created, which contains
+all the necessary files. Type
+
+        gzip -dc tnt-VERSIONINFO.tar.gz | tar xvf -
+
+or follow the instructions of your zip program (Windows).
+
+This uncompresses the archive and extracts all files to the
+installation directory.
+
+Now, the installation directory contains four executables:
+
+        tnt  tnt-diff  tnt-para  tnt-wc
+
+as well as directories for the documentation and the language models.
+
+Add the name of the installation directory (.../tnt) to the PATH environment
+variable to use these four programs from any place in your directory hierarchy,
+and set the environment variable TNT_MODELS to .../tnt/models (of course, `...'
+needs to be replaced by the complete path name) so that can tnt find the
+language model files.  That's it.
+
+For further information and usage see doc/manual.ps.
+
+For licensing conditions see License.ps.
+
+Thorsten Brants, thorsten@coli.uni-sb.de, Dec 29, 2000
+

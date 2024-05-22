@@ -1,0 +1,17 @@
+#Thu Oct 25 16:25:35 CEST 2007
+outputsentence=sentence
+outputtable=tagged
+trainid=s_id
+trainsentence=sentence
+port=3306
+inputsentence=sentence
+outputid=s_id
+traintable=tagged
+user=root
+inputtable=sentences
+inputid=s_id
+password=root
+database=de1M
+host=localhost
+driver=com.mysql.jdbc.Driver
+protocol=mysql

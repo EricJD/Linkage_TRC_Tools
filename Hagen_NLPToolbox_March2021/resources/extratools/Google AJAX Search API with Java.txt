@@ -1,0 +1,741 @@
+
+Questio Verum
+
+The adventures of academia, or how I learned to stop worrying and love teacher evaluations.*
+Tuesday, June 10, 2008
+Using Google's AJAX Search API with Java
+I was rather sad a year ago when Google deprecated their SOAP Search API with their AJAX Search API. Essentially Google was saying that they didn't want anyone programmatically accessing Google search results unless they were going to be presenting the results unaltered in a rectangular portion of a website. This was particularly troubling to me because, like many academics, I have relied on the API to do automated queries, especially for Warrick.
+
+A few months ago I got a little excited when Google opened their AJAX API to non-JavaScript environments. Google is now allowing queries using a REST-based interface that returns search results using JSON. The purpose of this API is still to show unaltered results to your website's user, but I don't see anything in the Terms of Use that prevent the API being used in an automated fashion (having a program regularly execute queries), especially for research purposes, as long as you aren't trying to make money (or prevent Google from making money) from the operation.
+
+    UPDATE: The AJAX web search API has been deprecated as of November 1, 2010. I do not know of a suitable replacement.
+
+
+So, here's what I've learned about using the Google AJAX Search API with Java. I haven't found this information anywhere else on the Web in one spot, so I hope you'll find it useful.
+
+Here's a Java program that queries Google three times. The first query is for the title of this blog (Questio Verum). The second query asks Google if the root page has been indexed, and the third query asks how many pages from this website are indexed. (Please forgive the poor formatting... Blogger thinks it knows better than I how I want my text indented. Argh.)
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import org.json.JSONArray;      // JSON library from http://www.json.org/java/
+import org.json.JSONObject;
+
+public class GoogleQuery {
+
+// Put your website here
+private final String HTTP_REFERER = "http://www.example.com/";
+
+public GoogleQuery() {
+makeQuery("questio verum");
+makeQuery("info:http://frankmccown.blogspot.com/");
+makeQuery("site:frankmccown.blogspot.com");
+}
+
+private void makeQuery(String query) {
+
+System.out.println("\nQuerying for " + query);
+
+try
+{
+// Convert spaces to +, etc. to make a valid URL
+query = URLEncoder.encode(query, "UTF-8");
+
+URL url = new URL("http://ajax.googleapis.com/ajax/services/search/web?start=0&rsz=large&v=1.0&q=" + query);
+URLConnection connection = url.openConnection();
+connection.addRequestProperty("Referer", HTTP_REFERER);
+
+// Get the JSON response
+String line;
+StringBuilder builder = new StringBuilder();
+BufferedReader reader = new BufferedReader(
+new InputStreamReader(connection.getInputStream()));
+while((line = reader.readLine()) != null) {
+builder.append(line);
+}
+
+String response = builder.toString();
+JSONObject json = new JSONObject(response);
+
+System.out.println("Total results = " +
+json.getJSONObject("responseData")
+.getJSONObject("cursor")
+.getString("estimatedResultCount"));
+
+JSONArray ja = json.getJSONObject("responseData")
+.getJSONArray("results");
+
+System.out.println("\nResults:");
+for (int i = 0; i < ja.length(); i++) {
+System.out.print((i+1) + ". ");
+JSONObject j = ja.getJSONObject(i);
+System.out.println(j.getString("titleNoFormatting"));
+System.out.println(j.getString("url"));
+}
+}
+catch (Exception e) {
+System.err.println("Something went wrong...");
+e.printStackTrace();
+}
+}
+
+public static void main(String args[]) {
+new GoogleQuery();
+}
+}
+
+
+Note that this example does not use a key. Although it is suggested you use one, you don't have to. All that is required is that you put your website or the URL of the webpage that is making the query in the query string (coming from the HTTP_REFERER constant).
+
+When you run this program, you will see the following output:
+
+Querying for questio verum
+
+Total results = 1320
+
+Results:
+1. Questio Verum
+http://frankmccown.blogspot.com/
+2. Questio Verum: URL Canonicalization
+http://frankmccown.blogspot.com/2006/04/url-canonicalization.html
+3. WikiAnswers - What does questio verum mean
+http://wiki.answers.com/Q/What_does_questio_verum_mean
+4. Amazon.com: Questio Verum "iracund"'s review of How to Get Happily ...
+http://www.amazon.com/review/R3VRSYWW5EJZFH
+5. Amazon.com: Profile for Questio Verum
+http://www.amazon.com/gp/pdp/profile/A2Q6CLLQPXG55A
+6. How and where to get Emerald? - Linux Forums
+http://www.linuxforums.org/forum/ubuntu-help/119375-how-where-get-emerald.html
+7. Lemme hit that wifi, baby! - Linux Forums
+http://www.linuxforums.org/forum/coffee-lounge/122922-lemme-hit-wifi-baby.html
+8. [SOLVED] lost in tv tuner hell... please help - Ubuntu Forums
+http://ubuntuforums.org/showthread.php%3Fp%3D3802299
+
+
+Querying for info:http://frankmccown.blogspot.com/
+
+Results:
+Total results = 1
+
+1. Questio Verum
+http://frankmccown.blogspot.com/
+
+
+Querying for site:frankmccown.blogspot.com
+
+Total results = 463
+
+Results:
+1. Questio Verum
+http://frankmccown.blogspot.com/
+2. Questio Verum: March 2006
+http://frankmccown.blogspot.com/2006_03_01_archive.html
+3. Questio Verum: December 2006
+http://frankmccown.blogspot.com/2006_12_01_archive.html
+4. Questio Verum: June 2006
+http://frankmccown.blogspot.com/2006_06_01_archive.html
+5. Questio Verum: October 2007
+http://frankmccown.blogspot.com/2007_10_01_archive.html
+6. Questio Verum: July 2007
+http://frankmccown.blogspot.com/2007_07_01_archive.html
+7. Questio Verum: April 2006
+http://frankmccown.blogspot.com/2006_04_01_archive.html
+8. Questio Verum: July 2006
+http://frankmccown.blogspot.com/2006_07_01_archive.html
+
+
+The program is only printing the title of each search result and its URL, but there are many other items you have access to. The partial JSON response looks something like this:
+
+"GsearchResultClass": "GwebSearch",
+"cacheUrl": "http://www.google.com/search?q=cache:Euh9Z1rDeXUJ:frankmccown.blogspot.com",
+"content": "<b>Questio Verum<\/b>. The adventures of academia, or how I learned to stop worrying and   love teacher evaluations.*. Saturday, June 07, 2008 <b>...<\/b>",
+"title": "<b>Questio Verum<\/b>",
+"titleNoFormatting": "Questio Verum",
+"unescapedUrl": "http://frankmccown.blogspot.com/",
+"url": "http://frankmccown.blogspot.com/",
+"visibleUrl": "frankmccown.blogspot.com"
+
+
+So, for example, you could display the result's cached URL (Google's copy of the web page) or the snippet (page content) by modifying the code in the example's for loop.
+
+You'll note that only 8 results are shown for the first and third queries. The AJAX API will only return either 8 results or 4 results (by changing rsz=large to rsz=small in the query string). Currently there are no other sizes.
+
+You can see additional results (page through the results) by changing start=0 in the query string to start=8 (page 2), start=16 (page 3), or start=24 (page 4). You cannot see anything past the first 32 results. In fact, setting start to any value larger than 24 will result in a org.json.JSONException being thrown. (See my update below.)
+
+More info on the query string parameters is available here.
+
+From the limited number of queries I've ran, the the first 8 results returned from the AJAX API are the same as the first 8 results returned from Google's web interface, but I'm not sure this is always so. In other words, I wouldn't use the AJAX API for SEO just yet.
+
+One last thing: the old SOAP API had a limit of 1000 queries per key, per 24 hours. There are no published limits for the AJAX API, so have at it.
+
+Update on 9/11/2008:
+
+Google has apparently increased their result limit to 64 total results. So you can page through 8 results at a time, up to 64 results.
+Posted by Frank McCown at 6/10/2008 04:09:00 PM
+Labels: ajax, google api
+60 comments:
+
+    Cooky6/11/2008 4:18 AM
+
+    It really helps. Thank you/
+    Reply
+    Steve Harris, Virginia Tech7/31/2008 6:57 AM
+
+    Very nicely done. I appreciate the time you took in developing this idea, and posting it.
+    Reply
+    Anonymous8/10/2008 8:14 PM
+
+    Thank you for taking to give us a very useful and well written code.
+
+    Do you think Google will expand the results beyond 32?
+    Reply
+    Frank McCown8/10/2008 8:21 PM
+
+    I don't think Google has any incentive to provide more that 32 results total since most users don't go beyond the first few sets of results. So you're left with screen-scraping if you really need more.
+    Reply
+    biojae8/12/2008 12:30 AM
+
+    Thanks for the great code!
+    Reply
+    con8/19/2008 1:58 AM
+
+    That was really nice..!!!
+    Thanks for posting such an useful topic and also covering every pros and cons of this aproach.
+
+    Do you find any way to get the results beyond fourth page.
+    Is there any other service that google provides for making use of their search feature.
+    Thanks in advance.
+    Reply
+    con8/19/2008 6:27 AM
+
+    Is advanced search feature available in the same way..
+    Please reply
+    Reply
+    Frank McCown8/19/2008 10:00 AM
+
+    Con- You cannot get more than 32 results. There is a researcher API, but it is only for academic purposes.
+    Reply
+    wahed9/09/2008 4:52 AM
+
+    Its really very much helpful in understanding the basic of Ajax search API, I whole heartedly thanks Frank Mccown for his remarkable work.
+
+    Some concern i have about google ajax search is :
+
+    1. if we are using JSON api then only Google gives back total 32 results even though the overall results may be 23,0043 ?.
+
+    Or
+
+    2. if we use direct Google ajax api in javascript and ajax, then total results will be fetched from Google ?.
+
+    3. can we at a time fetch 200 or 100 results using JSON api + google ajax search api ?.
+    Reply
+    wahed9/09/2008 6:30 AM
+
+    I have used JSON api for google ajax websearch here i am able to set start index till 56, and i am able to get results, but if i set the start index at 64 then i got exception stating response object is not JSONObject.
+
+    so this means we can fetch results till 56 ?
+    Reply
+    Frank McCown9/11/2008 1:28 PM
+
+    It looks like Google's API is now returning 64 results total instead of 32. So if you tell the API to start giving you results starting at 64, the API will burp.
+
+    Wahed- I'm not sure I understand your questions. JSON is just the format that the Google AJAX API uses to return results. You cannot get more than 64 results total (8 at a time), even if Google says there are 500 results.
+
+    If you use Google's human user interface, you can page through up to 1000 results. Yahoo and Live also will limit you to 1000 results total.
+    Reply
+    jitendra11/14/2008 6:37 AM
+
+    I am getting following error. Please help me.
+
+    Querying for questio verum
+    Something went wrong...
+    java.net.NoRouteToHostException: No route to host: connect
+    Reply
+    NYC2/23/2009 2:31 AM
+
+    thank you
+    Reply
+    NYC2/23/2009 6:06 AM
+
+    This comment has been removed by the author.
+    Reply
+    NYC2/23/2009 6:16 AM
+
+    Regarding in the chinese search, while I use makeQuery("??") , it will occur error at run time.
+
+    Do I miss something? like the language parameter of google?
+    Reply
+    Replies
+        karthikeyansethuraman3/17/2012 4:41 AM
+
+        pQuery = URLEncoder.encode("??", "UTF-8");
+        after pass the string for google url. I hope you will get results
+        Reply
+    Frank McCown2/23/2009 10:29 AM
+
+    NYC- You may want to check out
+    http://code.google.com/intl/zh-CN/
+    Reply
+    sankalp3/05/2009 2:25 PM
+
+    Thanks for providing the link for university search api
+    Reply
+    Anonymous4/03/2009 9:00 AM
+
+    thank you for this code, you saved me a lot of time! / grazie mille per la tua spiegazione e il codice, mi hai risparmiato molto lavoro! ciao!
+    Reply
+    Anjul10/01/2009 7:00 AM
+
+    hi,
+
+    i have used that code. but the estimatedResultCount is differ from the actual google site. can you help me to get the same number of response as i am getting from the google site.
+    Reply
+    Anonymous10/16/2009 2:39 AM
+
+    Thank you so much! This helped me alot!
+    Reply
+    Hieu Kieng12/08/2009 9:38 PM
+
+    Thanks so much for the useful post. Btw, have you tried to execute thousands of automated queries continuously using Google Ajax API? I doubt whether Google will make some restrictions on this kind of connection.
+    Reply
+    Frank McCown12/09/2009 10:49 AM
+
+    I have not automated thousands of requests to Google, but I don't think Google would get upset if you did, as long as you kept the number within reason (a few thousand a day).
+    Reply
+    Hieu Kieng12/10/2009 8:06 AM
+
+    Oh, it is really okay. Today I executed batch of 1000 queries two times and nothing wrong happened.
+    Reply
+    Roshan Rammohan12/14/2009 7:07 PM
+
+    Frank Thanks a Million.
+    I have been searching for sample code and yours was a great help!
+
+    By any chance, off the top of your head, do you know how I can replicate exact search? the equivalent of "wordX wordY" in google search.
+
+    I am working on a linguistic project and I am looking for bigrams, (word combinations used in English).. The idea is to replace bigram probabilities from trained corpuses by some pseudo probability score based on google search result counts. so the count for wordX or wordY will not do.
+
+    Thanks!
+    Reply
+    Roshan Rammohan12/14/2009 10:35 PM
+
+    Never mind previous query. Just queried with "\""+ query string+ "\"".
+    Thanks.
+    Reply
+    juan3/05/2010 5:43 AM
+
+    Hi!!
+
+    Thank you for your precious help!!
+
+    but I am getting an error :(
+
+    i am using JSON library net.sf.json instead of org.json. The constructor doesn't work in your example cause it doesn't accept a String as a parameter
+
+    String response = builder.toString();
+    JSONObject json = new JSONObject(response);
+
+    any suggestion? what is the difference between org.json and net.sf.json ???
+
+    Thank u for your time!!
+    Reply
+    juan3/05/2010 7:33 AM
+
+    This comment has been removed by the author.
+    Reply
+    juankysmith3/05/2010 8:03 AM
+
+    The problem was solved by using json-lib-1.1-jdk15.jar instead of 2.3 version.
+
+    Somehow the new version doesn't accept JSONObject(String) constructor.
+
+    why? I Don't know :P
+    Reply
+    Anonymous3/08/2010 8:03 AM
+
+    Hi everybody!
+
+    Really usefull information, but I have a doubt:
+
+    Is there any way to get all the content of a new? the content I get with 'j.getString("content")' is just the abstract and what I want is the whole content of the new, is this posible??
+
+    Thank u!
+    Reply
+    Frank McCown3/08/2010 9:26 AM
+
+    No, you cannot get the entire content of the result from the API. You must download the content yourself.
+    Reply
+    Anonymous3/09/2010 5:35 AM
+
+    Thank u Frank.
+
+    What do you think is the best way to download the full content of a new?
+    Reply
+    Osman Titiz6/15/2010 3:30 PM
+
+    I have searched the web but I haven't seen any solution like this. Great job. Congratulations. You are the best man :)
+    Reply
+    Anonymous6/15/2010 3:31 PM
+
+    Many Thanks,
+    It is really Great Job!
+    Reply
+    Momo6/26/2010 12:48 PM
+
+    Million times thanks buddy!! So grateful for this. Thanks again! :)
+    Reply
+    Anonymous8/23/2010 4:02 AM
+
+    Thanks So much! It saved me a lot of time.
+    Reply
+    Ritesh Kumar Sinha9/12/2010 2:11 PM
+
+    hey thanks for this valuable information....
+    Reply
+    syed sami10/03/2010 4:12 AM
+
+    Hello Frank!!. I would like to know,
+    1. for what purpose does 'HTTP_REFERER' is used????
+
+    2. and there are much difference in the order of search results displayed when compared to actual google search and from this application. Why is it so???
+
+    By the way, your code was of so much use to me, in regard with my web mining project(currently doing). :) Thanks a ton for that..!!!
+    Reply
+    Frank McCown10/03/2010 3:56 PM
+
+    Syed, glad the code is helpful. I don't think Google will respond to requests unless the HTTP_REFERER is set. I'm not sure how similar the results are from regular web search. I wrote a paper about the differences years ago that you might be interested in reading:
+
+    Agreeing to Disagree: Search Engines and their Public Interfaces
+    http://www.harding.edu/fmccown/pubs/se-apis-jcdl07.pdf
+    Reply
+    syed sami10/04/2010 11:40 AM
+
+    Yeah!!! Thanks Frank. Will surely go through the paper and will get back to you with more queries, if i have any. :)
+    Reply
+    syed sami11/06/2010 6:24 AM
+
+    Hello Frank!! I have come across some ideas to extract useful content from webpages, by converting HTML source of the webpage to XML, and then applying heuristics to the XML document. I would like to know if you have come across any such approach?? Or any other improved approach??
+    Reply
+    Frank McCown11/06/2010 10:19 AM
+
+    Syed- I'm not aware of any specific research using this method, but a search in Google Scholar would help you find all kinds of research used to mine data from the Web.
+    Reply
+    Anonymous11/17/2010 2:35 AM
+
+    Hi frank , great info ,
+    I would like to know is there a possibility to add a site restriction while constructing the URL ?
+    In JavaScript its possible to get the Google object and put a site restriction , How to do that in Java , any idea ?
+    Reply
+    Frank McCown11/17/2010 9:30 AM
+
+    Have you tried using the query "site:mysite.com foo" which searches mysite.com for the word "foo"?
+    Reply
+    Anonymous1/28/2011 11:03 AM
+
+    Hi Frank
+
+    Thank you for the code..
+
+    But may i know why the result count varies with actual Google result?
+    Reply
+    karim2/02/2011 7:17 AM
+
+    Hi Frank, thank you for the code.
+
+    Can i use this api in a webPage and pay money to Google!?
+    Reply
+    Frank McCown2/02/2011 10:57 AM
+
+    Anonymous- Like I said earlier in one comment, what the API produces and the web interface produces are often going to be different.
+
+    Karim- I don't know anything about paying money to Google.
+    Reply
+    Anonymous2/04/2011 7:10 PM
+
+    Hi Frank,
+    Your code was very helpful. Thanks!
+    Do the code need any update since Google is moving towards its "New Custom Search API"?
+    http://googlecode.blogspot.com/2010/11/introducing-google-apis-console-and-our.html
+    Reply
+    Frank McCown2/05/2011 8:51 AM
+
+    I'm not sure how the new API will affect this code. I would just keep using it until it breaks.
+    Reply
+    Anonymous2/16/2011 2:31 AM
+
+    hi, do u know where i can find the library? i couldn find though...thanks for your attention..
+    Reply
+    Frank McCown2/16/2011 10:04 AM
+
+    You can find the API here: http://code.google.com/apis/websearch/
+
+    As I've noted in the body of this blog post, the API was deprecated in Nov 2010. I'm not sure if there is another API that allows you to do general web search using Google.
+    Reply
+    Anonymous2/28/2011 3:37 AM
+
+    I am using a network which requires proxy ip, port and authentication. How can i make changes in code to run on my network?
+    Reply
+    Frank McCown2/28/2011 10:27 AM
+
+    Sorry, Anonymous... can't help you there.
+    Reply
+    Anonymous3/26/2011 3:08 PM
+
+    hello..i was wondering whether there was a way to capture the url clicked in the results returned using java?or is it possible with the javascript api only?
+    Reply
+    Anonymous6/29/2011 7:01 AM
+
+    Thank you very much fot this helpful topic. The problem is that I find only 4 results !!!! How can I increase the numbre of results?? Thanks in advance
+    Reply
+    karthikeyansethuraman9/12/2011 4:50 AM
+
+    Really very helpful to us. But we need how to fetch more than 8 data's
+    Reply
+    Kudlu Pallavi10/11/2011 11:38 PM
+
+    Very useful Information Frank! Thanks a ton!
+    Reply
+    Anting2/21/2012 3:59 PM
+
+    thx Frank, it's really helpful!!!!
+    but as a new learner, i m confused about if i need print the result one by one into the list (e.g. jList..), what should i do?
+    Reply
+    karthikeyansethuraman3/17/2012 4:35 AM
+
+    i want to get fetch total number of count against google search engine but i am not able to get count after 10 results count.
+
+    i hope you are having solution
+    Reply
+    Anonymous5/03/2012 10:43 AM
+
+    thanks it very helpful but i still have a little problem i hope register results in JSON file
+    any one has idea?
+    Reply
+
+Load more...
+
+Links to this post
+
+Create a Link
+Newer Post Older Post Home
+Subscribe to: Post Comments (Atom)
+About Me
+My Photo
+
+Frank McCown
+    Searcy, Arkansas, United States
+    I’m an assistant professor of Computer Science at Harding University. I write primarily about teaching, my research interests (web crawling, search engines, digital preservation, and web archiving), and happenings at Harding.
+
+View my complete profile
+
+Subscribe to my blog
+Blog Archive
+
+    ?  2012 (8)
+
+    ?  2011 (21)
+
+    ?  2010 (49)
+
+    ?  2009 (73)
+
+    ?  2008 (139)
+        ?  December (9)
+        ?  November (8)
+        ?  October (8)
+        ?  September (13)
+        ?  August (11)
+        ?  July (18)
+        ?  June (12)
+            Fav5
+            GUI blooper: HTML2Image
+            Archive spam
+            Back from JCDL 2008
+            JCDL in Pittsburgh
+            TouchGraph Facebook Browser
+            Fav5
+            What happens when your archive goes down?
+            Using Google's AJAX Search API with Java
+            Fav5
+            Ethan time
+            I'm in Los Alamos
+        ?  May (9)
+        ?  April (9)
+        ?  March (16)
+        ?  February (14)
+        ?  January (12)
+
+    ?  2007 (129)
+
+    ?  2006 (98)
+
+    ?  2005 (1)
+
+Labels
+
+    .net (3)
+    acm (1)
+    ai (1)
+    ajax (1)
+    amazon (1)
+    android (7)
+    apple (1)
+    ask (3)
+    baby (8)
+    baseball (2)
+    basketball (2)
+    blogging (5)
+    books (4)
+    caching (3)
+    christianity (2)
+    churches of christ (1)
+    colonial place (3)
+    colorado (1)
+    commercials (10)
+    conferences (37)
+    cs (32)
+    cs education (1)
+    databases (1)
+    deep web (4)
+    design (1)
+    digital libraries (4)
+    digital preservation (23)
+    dissertation (4)
+    entertainment (2)
+    ethan (24)
+    ethics (2)
+    fac5 (1)
+    facebook (24)
+    faith (4)
+    family (37)
+    fav5 (57)
+    firefox (1)
+    football (11)
+    for fun (3)
+    friends (3)
+    funny (6)
+    games (18)
+    google (70)
+    google api (10)
+    gui (7)
+    gui blooper (11)
+    harding (65)
+    hci (1)
+    heritrix (3)
+    history (2)
+    holidays (5)
+    hug 2011 (7)
+    hypertext (1)
+    information retrieval (1)
+    internet (1)
+    internet archive (13)
+    itunes (1)
+    java (5)
+    jobs (3)
+    jokes (2)
+    knights (1)
+    linkrot (5)
+    linux (1)
+    live search (1)
+    los alamos (6)
+    marriage (1)
+    memento (3)
+    microsoft (17)
+    misc (1)
+    mobile computing (5)
+    movies (10)
+    msn (7)
+    msn api (2)
+    oa (5)
+    oai-ore (1)
+    odu (9)
+    ore (1)
+    personalized search (2)
+    phd (1)
+    php (2)
+    plagiarism (1)
+    politics (3)
+    positive (1)
+    programming (6)
+    publishing (2)
+    R (3)
+    random (1)
+    rants (15)
+    recreation (1)
+    robotics (2)
+    search engines (32)
+    searcy (1)
+    security (2)
+    seo (1)
+    social networking (11)
+    software engineering (3)
+    spam (5)
+    sports (1)
+    stupid (1)
+    teaching (21)
+    technology (10)
+    tennis (1)
+    tools (3)
+    tv (1)
+    twitter (1)
+    usability (5)
+    user interfaces (1)
+    utilities (1)
+    vacation (2)
+    videos (3)
+    virginia (6)
+    visualization (14)
+    warrick (28)
+    web (6)
+    web applications (2)
+    web archiving (11)
+    web browsers (6)
+    web crawler (17)
+    web infrastructure (1)
+    web ir (1)
+    web science (3)
+    web search (13)
+    web tools (2)
+    website design (1)
+    weird (1)
+    white county (1)
+    wikipedia (16)
+    windows (8)
+    wireless (1)
+    xna (3)
+    yahoo (15)
+    yahoo api (5)
+    youtube (1)
+
+Links
+
+    My Harding website
+    ACM TechNews
+    MIT's Technology Review
+    CNET News
+    Google's Tech News
+
+Blogs I Occassionally Read
+
+    Computing Education Blog
+    David Rosenthal
+    Google Blogoscoped
+    Google Webmaster Central
+    Jansen - Web Search
+    Joel on Software
+    LifeHacker
+    Matt Cutts
+    Mike Cope
+    Search Engine Journal
+    Stuff Christians Like
+    Techdirt
+    Web Archiving Blog
+    Web Science and Digital Libraries Research Group
+
+Quotes
+"To tell you the truth, the most patriotic thing you can do today is trade in your SUV for a bike."
+- Roddick Stanton
+	
+Picture Window template. Powered by Blogger.

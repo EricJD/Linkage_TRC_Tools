@@ -1,0 +1,8 @@
+citizen;;0.5;A
+plastics;;0.5;A
+science;;0.5;A
+pollution;;0.5;A
+citizen;;0.5;H
+plastics;;0.5;H
+science;;0.5;H
+pollution;;0.5;H

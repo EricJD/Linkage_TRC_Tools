@@ -1,0 +1,6 @@
+*.bin
+*.idx
+*.meta
+*.trie
+*.sh
+*.pl

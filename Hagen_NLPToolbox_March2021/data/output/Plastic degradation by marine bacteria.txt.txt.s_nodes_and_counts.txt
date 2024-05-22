@@ -1,0 +1,6 @@
+citizen
+plastics
+science
+pollution
+Number of all terms (types): 4
+Number of all edges: 0

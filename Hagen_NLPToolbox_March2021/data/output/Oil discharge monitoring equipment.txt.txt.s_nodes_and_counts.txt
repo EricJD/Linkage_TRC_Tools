@@ -1,0 +1,2 @@
+Number of all terms (types): 0
+Number of all edges: 0

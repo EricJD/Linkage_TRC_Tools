@@ -1,0 +1,6 @@
+#Tue Jun 12 12:25:11 CEST 2007
+taglist=en_bnc-taggermodel.taglist
+secondTag=false
+transitions=en_bnc-taggermodel.transitions
+lexicon=en_bnc-taggermodel.lexicon
+ReplaceNumbers=false

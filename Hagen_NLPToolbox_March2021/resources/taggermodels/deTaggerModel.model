@@ -1,0 +1,6 @@
+#Sat Jun 23 19:06:57 CEST 2007
+taglist=deTaggerModel.taglist
+secondTag=false
+transitions=deTaggerModel.transitions
+lexicon=deTaggerModel.lexicon
+ReplaceNumbers=false

@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>Toolbox Homepage</title>
+  <meta name="Keywords" content="ASV,Toolbox,JAVA,NLP,Uni-Leipzig,Informatik,Automatische Sprachverarbeitung,tag,taggen,name entities,Cluster,clustern,clustering,Chinese Whispers,baseforms,Levensthein,spell checking,reduction,split,compound nouns,terminology extration,language,identification">
+</head>
+<body>
+<div class="Section1">
+<h1 align="center">ASV Toolbox</h1>
+<p align="center"><img src="Toolbox%20Homepage-Dateien/Welcome.jpg" alt="Welcome icon"></p>
+<p>This is the homepage for
+the ASV Toolbox project. Here you can download the most recent version
+of
+the ASV
+Toolbox(complete) or the modules of the ASV Toolbox. It is written in
+JAVA
+(compiled with version 1.5).<br>
+Current Version is 1.0.  The toolbox is distributed under the <a href="http://opensource.org/licenses/mit-license.php">MIT license</a>.<br>
+</p>
+<h3>Introduction</h3>
+<p>ASV Toolbox is a modular collection of tools for the exploration of
+written language data. They work either on word lists or text and solve
+several linguistic classification and clustering tasks. The topics
+covered contain language detection, POS-tagging, base form reduction,
+named entity recognition, and terminology extraction. On a more
+abstract level, the algorithms deal with various kinds of word
+similarity, using pattern based and statistical approaches. The
+collection can be used to work on large real world data sets as well as
+for studying the underlying algorithms. The ASV Toolbox can work on
+plain text files and connect to a MySQL database. While it is
+especially designed to work with corpora of the <a href="http://corpora.uni-leipzig.de/">Leipzig Corpora Collection</a>,
+it can easily be adapted to other sources.<br>
+<br></p>
+<h3>Installation</h3>
+<h4>ASV Toolbox complete anf ASV Toolbox framework</h4>
+<p>Download the zip file and unzip it into a directory of your choice.</p>
+<h4>ASV Toolbox modules and modules resources (examples, documentation,
+languages, ...)</h4>
+<p>Download the zip file. Unzip the zip file to the directory
+containing the ASV Toolbox home. <br>
+Windows users might simply use "extract here", UNIX users should use
+"unzip -o &lt;filename&gt;.zip"<br>
+</p>
+<p> If you download a module you have edit the file toolbox.start which
+you will find in config folder in your ASV toolbox home. Every module
+has a copy of this file named toolbox.start.<i>modulename</i>. After
+unzipping the module, this file is located in the config folder. Copy
+the line into the toolbox.start file (use a new line). Example: if you
+want to include Genetomorph and ViterbiTagger, your toolbox.start file
+should look like this:<br>
+</p>
+<pre>de.uni_leipzig.asv.toolbox.genetoMorph.GenetoMorph</pre>
+<pre>de.uni_leipzig.asv.toolbox.viterbitagger.gui.ViterbiTagger</pre>
+<h3>ASV
+Toolbox complete</h3>
+<p>The complete ASV Toolbox package contains the following
+modules:<br>
+<a href="#_Cw">Chinese Whispers</a>: graph clustering tool <br>
+<a href="#_Levenshtein">Levenshtein</a>: spell checking tool<br>
+<a href="#_Baseforms">Baseforms</a>: baseform reduction and splitting
+compound
+nouns tool<br>
+<a href="#_Pretree">Pretree</a>: training tool for pretrees and
+classify tool<br>
+<a href="#_Te">TE</a>: terminology extraction tool<br>
+<a href="#_Pendulum">Pendulum</a>: gazetteer bootstrapping tool (for
+Named Entity Recognition)<br>
+<a href="#_Namerec">Namerec</a>: Named Entity Recognition system<br>
+<a href="#_Jlani">JLanI</a>: language identification tool<br>
+<a href="#_Viterbitagger">Viterbitagger</a>: POS tagging tool<br>
+<a href="#_Zipfel">Zipfel</a>: tool for Zipf's law<br>
+<a href="#_AHC">AHC</a>: agglomerative hierarchical
+clustering tool <br>
+<a href="#_Genetomorph">Genetomorph</a>: finding morphological
+structure
+with a genetic algorithm<br>
+<a href="#_YourTool">Your Tool</a>: template tool for your program<br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 258MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/VerifyComplete.php" noindex="noindex" nofollow="nofollow">ASV
+Toolbox.zip</a></p>
+<h3>ASV Toolbox - Documentation</h3>
+<p>Here you can download the
+complete documentation for the ASV Toolbox.<br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 7.46MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Docu.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Docu.zip</a></p>
+<h3>ASV
+Toolbox - framework</h3>
+<p>The framework does NOT
+contain module but is needed to use a module. It contains the libraries
+and
+utilities of the ASV Toolbox.<br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 197KB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_frameworkv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_framework.zip</a></p>
+<h3><a name="_Cw">ASV
+Toolbox - Chinese Whispers</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/whisper.jpg" alt="icon of this tool"></p>
+<p>
+</p>
+<p class="MsoBodyTextIndent"><br>
+<span lang="EN-GB">This very efficient graph
+clustering algorithm&nbsp; has been used for
+language separation, unsupervised POS tagging and word sense induction.
+Its
+application is not bound to language data; the program can partition
+arbitrary
+undirected, weighted graphs of arbitrary sizes. Best results are
+obtained on
+graphs with small world structure.<o:p></o:p></span></p>
+<p>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 4.66MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_CWv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_CW.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/CW.html">Documentation</a>
+</p>
+<h3><a name="_Levenshtein">ASV
+Toolbox - Levenshtein</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/levenshtein.gif" alt="icon of this tool"></p>
+<p>
+</p>
+<p class="MsoBodyTextIndent"><br>
+<span lang="EN-GB">Based on a Directed Acyclic Word
+Graph implementation, this tool allows efficient basic spell checking
+by
+offering words from a given word list with Levenshtein edit distances.
+As
+resources, we provide the top frequent 50.000 words for currently 15
+languages.
+Training of custom word lists is possible. For example, the Italian
+wordlist
+returns for the misspelled input word “spagetti” the correct spelling
+“spaghetti” with distance 1 and offers “spetti”, “soggetti”, “panetti”
+and
+“paletti” with distance 2.<o:p></o:p></span></p>
+<p>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 8.20MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Levenshteinv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Levenshtein.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Levensthein.htm">Documentation</a></p>
+<h3><a name="_Baseforms">ASV
+Toolbox - Baseforms</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/baseforms.jpg" alt="icon of this tool"></p>
+<p>
+</p>
+<p class="MsoNormal" style="text-align: center;" align="center"><br>
+</p>
+<div style="text-align: left;"><span lang="EN-GB">This tool allows base
+form
+reduction and compound noun splitting based on a Compact Patricia Tree
+implementation (see Pretree). It includes data for base form reduction
+for
+English, German and Norwegian, as well as for German compound noun
+splitting.
+If not contained in the training set, a base form is guessed with high
+accuracy. Additionally, a training environment makes it easy to add
+data for
+other languages. </span><span style="font-size: 11pt;" lang="EN-GB"><o:p></o:p></span></div>
+<p><br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 3.08MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Baseformsv1.0l.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Baseforms.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Baseforms%20Tool.htm">Documentation</a></p>
+<h3><a name="_Pretree">ASV
+Toolbox - Pretree</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/Pre.jpg" alt="icon of this tool"></p>
+<p><br>
+<span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">This
+implementation of Compact Patricia Tree
+classifiers proved to be useful for morphology-related tasks and is
+used by various other tools in ASV Toolbox.
+The tool provides possibilities to train and evaluate classifiers that
+use
+beginnings or endings of strings as features. An important property of
+this
+classifier is that it reproduces the training set classification to
+100%.
+Therefore, pretrees are capable of storing an exception list, while
+generalizing on unseen examples.<br>
+</span>&nbsp;<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 22.3MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Pretreev1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Pretree.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Pretree.html">Documentation</a></p>
+<h3><a name="_Te">ASV
+Toolbox - TE</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/TE.jpg" alt="icon of this tool"></p>
+<p>TE is the abbreviation for <b>T</b>erminolgy <b>E</b>xtraction.<br>
+</p>
+<p></p>
+<p class="MsoBodyTextIndent"><span lang="EN-GB">This tool extracts
+terminologically relevant terms and phrases from short documents by
+comparing
+them to a large background corpus. Currently, it is available for
+English,
+Finnish and German.<o:p></o:p></span></p>
+<p><br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 32MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_TEv1.0.zip" noindex="noindex" nofollow="nofollow">ASV_Toolbox_TE_v1.0.zip (incl. language English)</a><br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_TEv1.1.zip" noindex="noindex" nofollow="nofollow">ASV_Toolbox_TE_v1.1.zip (incl. language English)</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/TE.html">Documentation</a></p>
+<table border="2">
+  <tbody>
+    <tr>
+      <th> language </th>
+      <th> download link </th>
+      <th>file size</th>
+    </tr>
+    <tr>
+      <td> German </td>
+      <td><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_TE_DE.zip" noindex="noindex" nofollow="nofollow">ASV_Toolbox_TE_DE.zip</a> </td>
+      <td>73MB
+      </td>
+	
+    </tr>
+    <tr>
+      <td>Finnish </td>
+      <td><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_TE_FI.zip" noindex="noindex" nofollow="nofollow">ASV_Toolbox_TE_FI.zip</a> </td>
+      <td>105MB
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3><a name="_Pendulum">ASV
+Toolbox - Pendulum</a></h3>
+<p><img src="Toolbox%20Homepage-Dateien/Pen.jpg" alt="icon of this tool"><br>
+<br>
+<span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">For
+building gazetteers for generalized Named
+Entity Recognition, this tool provides a bootstrapping framework that
+grows
+small initial gazetteers using a set of rules and a customizable
+regular
+expression tagging. In the case of person names, this search-and
+verification
+methodology is able to extract e.g. some 40,000 names starting from a
+list of
+20 with high precision from large plain text corpora.</span><br>
+</p>
+<p>Version: 1.0 <br>
+file format: zip <br>
+file size: 2.83MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Pendulumv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Pendulum.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Pendulum.html">Documentation</a></p>
+<h3><a name="_Namerec">ASV
+Toolbox - Namerec</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/namerec.jpg" alt="icon of this tool"></p>
+<p>Namerec is a gazetteer- and rule-based Namend Entity Recognition
+tool.</p>
+<p></p>
+<p class="MsoBodyTextIndent"><span lang="EN-GB">Here you can specify
+Named Entity
+Extraction rules that make heavy use of gazetteers (e.g. built by the
+Pendulum
+as described in the previous section). Extraction patterns are freely
+configurable; the tool marks plain text with NER markup. Resources are
+available for German for person names with professions; a sample markup
+is
+given here:<o:p></o:p></span></p>
+<p class="MsoBodyText" style="margin: 0cm 48.6pt 0.0001pt 45pt; text-align: left;"><span style="font-size: 10pt;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--></span><span style="" lang="EN-GB">&lt;person pattern="TIT PU VN
+NN"&gt;Dr . Angela Merkel&lt;/person&gt; hat &lt;person pattern="VN
+NN"&gt;Gerhard Schröder&lt;/person&gt; im Amt abgelöst .<o:p></o:p></span></p>
+<p>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 2.65MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Namerecv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Namerec.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Namerec.html">Documentation</a></p>
+<h3><a name="_Jlani">ASV
+Toolbox - JLanI</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/JLani.gif" alt="icon of this tool"></p>
+<p>JLanI identifies the language
+of sentences. <span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">This
+state-of-the-art word-based language
+identification program allows identifying the language at sentence
+level. It
+can be used to identify foreign language inserts in a corpus. At the
+moment, 25
+languages are supported; the number of languages is easily extendible
+by
+providing frequency lists. </span><br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 2.59MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_JLanIv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_JLanI.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/JLanI.htm">Documentation</a></p>
+<h3><a name="_Viterbitagger">ASV
+Toolbox - Viterbitagger</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/tagman_klein.jpg" alt="icon of this tool"></p>
+<p>Train, use and evaluate a simple POS tagger.</p>
+<p><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">This
+simple tagger implementation is based on tag
+trigrams and tag distributions for words. Not as powerful as a full HMM
+implementation, it comes with a morphological back-off component
+(realized with
+Pretree) and is capable of training tagger models on very large
+annotated texts in flexible formats. Further, it allows tagging
+previously
+tagged text with a second (e.g. semantic) tag. The format of the tagger
+model
+is readable as plain text, which could prove useful for educational
+purposes.
+An evaluation framework is included that also deals with evaluating on
+different tag sets for Gold standard and test. Supervised models are
+provided
+for English, German and Finnish, unsupervised tagger models for
+resource-scarce
+languages or domain-specific applications are available at
+http://wortschatz.uni-leipzig.de/~cbiemann/software/unsupos.html<br>
+</span>&nbsp;<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 4.82MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Viterbitaggerv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Viterbitagger.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Viterbitagger.htm">Documentation</a></p>
+<table border="2">
+  <tbody>
+    <tr>
+      <th> tagger model </th>
+      <th> download link </th>
+      <th>file size</th>
+    </tr>
+    <tr>
+      <td>German </td>
+      <td><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_VT_DE.zip" noindex="noindex" nofollow="nofollow">ASV Toolbox_VT_DE.zip</a> </td>
+      <td>327KB</td>
+    </tr>
+    <tr>
+      <td>English </td>
+      <td><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_VT_EN.zip" noindex="noindex" nofollow="nofollow">ASV Toolbox_VT_EN.zip</a> </td>
+      <td>2.54MB</td>
+    </tr>
+    <tr>
+      <td>Finnish </td>
+      <td><a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_VT_FI.zip" noindex="noindex" nofollow="nofollow">ASV Toolbox_VT_FI.zip</a> </td>
+      <td>71KB</td>
+    </tr>
+  </tbody>
+</table>
+<h3><a name="_Zipfel">ASV
+Toolbox - Zipfel</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/zipfel.jpg" alt="icon of this tool"></p>
+<p><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">For
+an introduction to quantitative linguistics,
+this tool enables to visualize Zipfian distributions for word frequency
+lists
+and documents. Various parameters are computed, rank-frequency lists
+are
+browseable and the plot can be exported in various formats. </span><br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 1.11MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Zipfelv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_Zipfel.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Zipfel.htm">Documentation</a></p>
+<h3><a name="_AHC">ASV
+Toolbox - HAC</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/ahc.gif" alt="icon of this tool"></p>
+<p><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">This
+basic implementation of HA-clustering allows
+clustering elements represented as vectors with various norms and
+distance
+measures. As example configuration, words can be clustered by their
+common
+significant co-occurrences (available from LCC in 15 languages). The
+result can
+be exported as XML file or in dendrogram picture format.</span><br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 1.25MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_HACv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_HAC.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/HAC.html">Documentation</a></p>
+<h3><a name="_Genetomorph">ASV
+Toolbox - Genetomorph</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/GenetoMorphIcon.jpg" alt="icon of this tool"></p>
+<p>
+</p>
+<p class="MsoBodyTextIndent"><span lang="EN-GB">A Genetic Algorithm is
+used to
+detect morphological regularities in word lists. A fitness function
+that
+minimizes the cost of describing morphological rules is optimized,
+individual
+solutions can be browsed and the progress until convergence is
+visualized in a
+plot. Sample data is available for German nouns and adjectives.<o:p></o:p></span></p>
+<p><br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 4.42MB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_Genetomorphv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_GenetoMorph.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/Genetomorph.html">Documentation</a></p>
+<h3><a name="_YourTool">ASV
+Toolbox - Your Tool</a></h3>
+<p align="left"><img src="Toolbox%20Homepage-Dateien/yourTool.jpg" alt="icon of this tool"></p>
+<p>Template tool to integrate
+your own programm as module in the ASV Toolbox.<br>
+<br>
+Version: 1.0 <br>
+file format: zip <br>
+file size: 626KB <br>
+file link: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/ASV_Toolbox_YourToolv1.0.zip" noindex="noindex" nofollow="nofollow">ASV
+Toolbox_YT.zip</a><br>
+documentation: <a href="http://wortschatz.uni-leipzig.de/%7Ecbiemann/software/toolbox/YourTool.html">Documentation</a></p>
+</div>
+
+
+</body></html>
